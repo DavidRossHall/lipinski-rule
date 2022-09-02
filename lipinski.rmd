@@ -16,8 +16,10 @@ knitr::opts_chunk$set(
   warning = FALSE,
   error = FALSE
 )
+
 library(webchem)
 library(tidyverse)
+source("utils.r")
 ```
 
 ### David Hall --- created on 2022-09-02
@@ -61,17 +63,21 @@ drugs_raw <- read_tsv("data/drugs.tsv") %>%
 
 
 
-```{r}
+```{r tsca-data}
 # getting logp values and cas from TSCA
 
+# removing UVCB compounds
 tsca <- tsca_raw %>%
   filter(is.na(uvcb))
 
+# small test dataset 
 tsca_test <- sample_n(tsca, 500)
 
+# getting pubchem CID for properties search
 tsca_cid <- get_cid(tsca_test$casrn) %>%
   filter(!is.na(cid)) 
 
+# querying pubchem for CID for lipinski search
 tsca_props <- pc_prop(cid = tsca_cid$cid,
                       properties = c("XLogP", 
                                      "MolecularFormula", 
@@ -79,16 +85,8 @@ tsca_props <- pc_prop(cid = tsca_cid$cid,
                                      "HBondDonorCount",
                                      "HBondAcceptorCount"))
 
-# Function to add column indicating if molecule obeys Lipinski's rules
-is_lipinski <- function(df, h_donor, h_accept, mw, logp){
-  
-  df <- df %>%
-    mutate(lipinski = case_when(.data[[h_donor]] <= 5 & .data[[h_accept]] <= 10 & .data[[mw]] <= 500 & .data[[logp]] <= 5 ~ TRUE, TRUE ~ FALSE))
-     
-  df
-    
-}
 
+# querying pubchem for lipinksi properties
 tsca_lipinski <- tsca_props %>%
   is_lipinski(df = .,
               h_donor = "HBondDonorCount",
@@ -97,7 +95,7 @@ tsca_lipinski <- tsca_props %>%
               logp = "XLogP")
 
 
-# combining all datasets together
+# combining TSCA datasets together
 tsca_all <- tsca_lipinski %>%
   mutate(CID = as.character(CID)) %>%
   left_join(., tsca_cid, by = c("CID" = "cid")) %>%
@@ -106,9 +104,48 @@ tsca_all <- tsca_lipinski %>%
   janitor::clean_names() %>%
   mutate(molecular_weight = as.numeric(molecular_weight))
 
+# saving test dataset
 #write_csv(tsca_all, file = "data/TSCA_testData.csv")
   
 ```
+
+```{r drugs-dataset}
+
+#drugs_test <- sample_n(drugs_raw, 50)
+
+
+drugs_cid <- get_cid(drugs_raw$generic_name) %>%
+  filter(!is.na(cid))
+
+# querying pubchem for CID for lipinski search
+drugs_props <- pc_prop(cid = drugs_cid$cid,
+                      properties = c("XLogP", 
+                                     "MolecularFormula", 
+                                     "MolecularWeight",
+                                     "HBondDonorCount",
+                                     "HBondAcceptorCount"))
+
+
+# querying pubchem for lipinksi properties
+drugs_lipinski <- drugs_props %>%
+  is_lipinski(df = .,
+              h_donor = "HBondDonorCount",
+              h_accept = "HBondAcceptorCount",
+              mw = "MolecularWeight",
+              logp = "XLogP")
+
+# combining TSCA datasets together
+drugs_all <- drugs_lipinski %>%
+  mutate(CID = as.character(CID)) %>%
+  left_join(., drugs_cid, by = c("CID" = "cid")) %>%
+  left_join(., drugs_raw, by = c("query" = "generic_name")) %>%
+  janitor::clean_names() %>%
+  mutate(molecular_weight = as.numeric(molecular_weight))
+
+write_csv(x = drugs_all, file = "data/drugs_all.csv")
+
+```
+
 
 ```{r}
 
@@ -122,5 +159,16 @@ p1 <- ggExtra::ggMarginal(p,
                           type = "density"
                           )
 p1
+
+q <- ggplot(data = drugs_all, 
+       aes(x = molecular_weight,
+           y = x_log_p,
+           colour = lipinski)) +
+  geom_point(alpha = 0.3) 
+
+q1 <- ggExtra::ggMarginal(q, 
+                          type = "density"
+                          )
+q1
 ```
 
