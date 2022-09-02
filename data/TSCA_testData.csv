@@ -1,0 +1,445 @@
+cid,molecular_formula,molecular_weight,x_log_p,h_bond_donor_count,h_bond_acceptor_count,lipinski,casrn,id,casregno,uid,exp,chem_name,def,uvcb,flag,activity
+97053,C11H13NO4,223.22,1.8,1,4,TRUE,39608-31-6,28096,39608316,NA,NA,"Glycine, N-methyl-N-[(phenylmethoxy)carbonyl]-",NA,NA,NA,INACTIVE
+44151922,C20H33N2NaO7-2,436.5,NA,0,8,FALSE,206886-68-2,66119,206886682,NA,NA,"Glycine, N-[2-[bis(carboxymethyl)amino]ethyl]-N-(1-oxododecyl)-, sodium salt (1:?)",NA,NA,PMN; 5E,INACTIVE
+73557378,C20H35N2NaO7,438.5,NA,2,8,FALSE,206886-68-2,66119,206886682,NA,NA,"Glycine, N-[2-[bis(carboxymethyl)amino]ethyl]-N-(1-oxododecyl)-, sodium salt (1:?)",NA,NA,PMN; 5E,INACTIVE
+173125,C33H38O7,546.6,NA,5,7,FALSE,68892-00-2,48597,68892002,NA,NA,"Benzoic acid, 2-hydroxy-, polymer with 4-(1,1-dimethylethyl)phenol, formaldehyde and 4,4'-(1-methylethylidene)bis[phenol]",NA,NA,XU,ACTIVE
+21159,C6H12O,100.16,1.1,0,1,TRUE,5076-20-0,12974,5076200,NA,NA,"Oxirane, 2,2,3,3-tetramethyl-",NA,NA,NA,INACTIVE
+12339,C5H12S,104.22,2.1,0,1,TRUE,628-29-5,6496,628295,NA,NA,"Butane, 1-(methylthio)-",NA,NA,NA,ACTIVE
+13589,C4H8O2,88.11,-0.2,0,2,FALSE,930-37-0,7461,930370,NA,NA,"Oxirane, 2-(methoxymethyl)-",NA,NA,NA,ACTIVE
+113224,C10H22IN,283.19,NA,1,1,FALSE,63451-00-3,33198,63451003,NA,NA,"Piperidine, 1,2,2,6,6-pentamethyl-, hydriodide (1:1)",NA,NA,NA,INACTIVE
+110464,C11H10N2O2,202.21,2.7,0,3,TRUE,68527-68-4,45048,68527684,NA,NA,"Quinoline, 5,6-dimethyl-8-nitro-",NA,NA,NA,INACTIVE
+109272,C36H71Br4O4P,918.5,16.3,1,4,FALSE,68298-31-7,41521,68298317,NA,NA,"1-Octadecanol, 9,10-dibromo-, 1,1'-(hydrogen phosphate)",NA,NA,NA,INACTIVE
+14741,C26H47O3P,438.6,10.9,0,3,FALSE,1254-78-0,8154,1254780,NA,NA,"Phosphorous acid, didecyl phenyl ester",NA,NA,NA,ACTIVE
+171968,C14H21N3O7S,375.4,NA,6,8,FALSE,67893-17-8,37474,67893178,NA,NA,"Benzenesulfonic acid, hydroxy-, polymer with formaldehyde, phenol and urea, ammonium salt",NA,NA,XU,ACTIVE
+14855,C7H7ClO,142.58,2.8,1,1,TRUE,1570-64-5,8829,1570645,NA,NA,"Phenol, 4-chloro-2-methyl-",NA,NA,NA,ACTIVE
+21118956,C10H14O3S,214.28,1.6,0,3,TRUE,63549-11-1,33340,63549111,NA,NA,"1,2-Benzoxathiin, 5,6,7,8-tetrahydro-4,7-dimethyl-, 2,2-dioxide",NA,NA,NA,INACTIVE
+11067475,C20H14N2O3,330.3,4.6,3,5,TRUE,101904-51-2,61773,101904512,NA,NA,"3-Acridinecarboxylic acid, 9,10-dihydro-9-oxo-2-(phenylamino)-",NA,NA,PMN,INACTIVE
+6914518,Ag3As,398.526,NA,0,0,FALSE,12417-99-1,18150,12417991,NA,NA,Arsenargentite (Ag3As),NA,NA,NA,INACTIVE
+11875,C7H4ClNO3,185.56,2.4,0,3,TRUE,610-14-0,6021,610140,NA,NA,"Benzoyl chloride, 2-nitro-",NA,NA,NA,ACTIVE
+6441739,C20H26N2O4,358.4,NA,2,5,FALSE,68015-76-9,38573,68015769,NA,NA,"2-Propenoic acid, 2-methyl-, polymer with ethenylbenzene, ethyl 2-propenoate and 2-propenenitrile, ammonium salt",NA,NA,XU,INACTIVE
+23741,C16H32O,240.42,7.3,0,1,FALSE,7320-37-8,14826,7320378,NA,NA,"Oxirane, 2-tetradecyl-",NA,NA,NA,ACTIVE
+1672,C4H11NO,89.14,-0.5,1,2,FALSE,5332-73-0,13160,5332730,NA,NA,"1-Propanamine, 3-methoxy-",NA,NA,NA,ACTIVE
+3482402,C10H15Cl2NO2,252.13,2.4,0,2,TRUE,71526-07-3,54617,71526073,NA,NA,"Ethanone, 2,2-dichloro-1-(1-oxa-4-azaspiro[4.5]dec-4-yl)-",NA,NA,PMN; S; 5E,INACTIVE
+7039,C9H12O3,168.19,0.7,3,3,TRUE,91-04-3,1481,91043,NA,NA,"1,3-Benzenedimethanol, 2-hydroxy-5-methyl-",NA,NA,NA,ACTIVE
+38235,C9H18N2O2S,218.32,2.2,1,4,TRUE,39196-18-4,27955,39196184,NA,NA,"2-Butanone, 3,3-dimethyl-1-(methylthio)-, O-[(methylamino)carbonyl]oxime",NA,NA,NA,ACTIVE
+5364932,C9H18N2O2S,218.32,2.2,1,4,TRUE,39196-18-4,27955,39196184,NA,NA,"2-Butanone, 3,3-dimethyl-1-(methylthio)-, O-[(methylamino)carbonyl]oxime",NA,NA,NA,ACTIVE
+5361043,C9H18N2O2S,218.32,2.2,1,4,TRUE,39196-18-4,27955,39196184,NA,NA,"2-Butanone, 3,3-dimethyl-1-(methylthio)-, O-[(methylamino)carbonyl]oxime",NA,NA,NA,ACTIVE
+89087,C24H18ClN3O3,431.9,6.6,2,5,FALSE,21889-27-0,21868,21889270,NA,NA,"2-Naphthalenecarboxamide, 4-[2-(3-chlorophenyl)diazenyl]-3-hydroxy-N-(2-methoxyphenyl)-",NA,NA,NA,ACTIVE
+85234,C7H8O3S,172.2,1.8,0,4,TRUE,16003-16-0,20079,16003160,NA,NA,"Acetic acid, 2-(2-furanylthio)-, methyl ester",NA,NA,NA,INACTIVE
+20026291,C17H19NO6,333.3,3.5,0,6,TRUE,71172-14-0,54098,71172140,NA,NA,"Benzene, 1,2-dimethoxy-4-[1-(4-methoxyphenoxy)ethyl]-5-nitro-",NA,NA,NA,INACTIVE
+23960,Th,232.038,NA,0,0,FALSE,7440-29-1,14990,7440291,NA,NA,Thorium,NA,NA,NA,ACTIVE
+76150,C12H14O4,222.24,1.8,0,4,TRUE,2881-83-6,10590,2881836,NA,NA,"Benzenepropanoic acid, 4-methoxy-.beta.-oxo-, ethyl ester",NA,NA,NA,INACTIVE
+89413,C57H59ClO8,907.5,NA,0,7,FALSE,21016-22-8,21693,21016228,NA,NA,"1-Benzopyrylium, 8-[5-[6,7-dihydro-2,4-bis[4-(pentyloxy)phenyl]-5H-1-benzopyran-8-yl]-2,4-pentadien-1-ylidene]-5,6,7,8-tetrahydro-2,4-diphenyl-, perchlorate (1:1)",NA,NA,NA,INACTIVE
+6627,C12H10Cl2Si,253.19,NA,0,0,FALSE,80-10-4,695,80104,NA,NA,"Benzene, 1,1'-(dichlorosilylene)bis-",NA,NA,NA,ACTIVE
+10167209,C14H18K5N3O10,583.8,NA,0,13,FALSE,7216-95-7,14771,7216957,NA,NA,"Glycine, N,N-bis[2-[bis(carboxymethyl)amino]ethyl]-, potassium salt (1:5)",NA,NA,PMN,ACTIVE
+92018038,C14H23KN3O10,432.44,NA,5,13,FALSE,7216-95-7,14771,7216957,NA,NA,"Glycine, N,N-bis[2-[bis(carboxymethyl)amino]ethyl]-, potassium salt (1:5)",NA,NA,PMN,ACTIVE
+138395840,C14H18K25N3O10+20,1365.76,NA,0,13,FALSE,7216-95-7,14771,7216957,NA,NA,"Glycine, N,N-bis[2-[bis(carboxymethyl)amino]ethyl]-, potassium salt (1:5)",NA,NA,PMN,ACTIVE
+21118876,C29H34O2,414.6,9.2,0,2,FALSE,69777-74-8,51865,69777748,NA,NA,"[1,1'-Biphenyl]-4-carboxylic acid, 4'-[(2S)-2-methylbutyl]-, 4-[(2S)-2-methylbutyl]phenyl ester",NA,NA,PMN,INACTIVE
+79654,C34H68N2O2,536.9,13.5,2,2,FALSE,5518-18-3,13418,5518183,NA,NA,"Hexadecanamide, N,N'-1,2-ethanediylbis-",NA,NA,NA,ACTIVE
+136033694,C20H12Cl3CuN5Na2O8S2+2,730.4,NA,5,13,FALSE,71598-36-2,54796,71598362,NA,NA,"Cuprate(2-), [4-(hydroxy-.kappa.O)-3-[2-[2-(hydroxy-.kappa.O)-5-sulfophenyl]diazenyl-.kappa.N1]-7-[(2,5,6-trichloro-4-pyrimidinyl)amino]-2-naphthalenesulfonato(4-)]-, sodium (1:2)",NA,NA,NA,ACTIVE
+154734695,C20H8Cl3CuN5Na2O8S2,726.3,NA,1,13,FALSE,71598-36-2,54796,71598362,NA,NA,"Cuprate(2-), [4-(hydroxy-.kappa.O)-3-[2-[2-(hydroxy-.kappa.O)-5-sulfophenyl]diazenyl-.kappa.N1]-7-[(2,5,6-trichloro-4-pyrimidinyl)amino]-2-naphthalenesulfonato(4-)]-, sodium (1:2)",NA,NA,NA,ACTIVE
+163360242,C20H12Cl3CuN5Na2O8S2+2,730.4,NA,5,13,FALSE,71598-36-2,54796,71598362,NA,NA,"Cuprate(2-), [4-(hydroxy-.kappa.O)-3-[2-[2-(hydroxy-.kappa.O)-5-sulfophenyl]diazenyl-.kappa.N1]-7-[(2,5,6-trichloro-4-pyrimidinyl)amino]-2-naphthalenesulfonato(4-)]-, sodium (1:2)",NA,NA,NA,ACTIVE
+92536,C40H52Zr,624.1,NA,0,4,FALSE,56797-10-5,30783,56797105,NA,NA,"Zirconium, tetrakis(2-methyl-2-phenylpropyl)-",NA,NA,NA,INACTIVE
+22843,C16H12Cl2N4O7S2,507.3,2.1,2,10,FALSE,25739-65-5,23548,25739655,NA,NA,"Benzenesulfonic acid, 2,5-dichloro-4-[4,5-dihydro-3-methyl-5-oxo-4-[2-(4-sulfophenyl)diazenyl]-1H-pyrazol-1-yl]-",NA,NA,NA,INACTIVE
+7650,C11H14O2,178.23,2.8,0,2,TRUE,103-37-7,2197,103377,NA,NA,"Butanoic acid, phenylmethyl ester",NA,NA,NA,ACTIVE
+6452281,C18H26N2O6,366.4,NA,3,8,FALSE,50885-98-8,29056,50885988,NA,NA,"1,3-Propanediol, 2-ethyl-2-(hydroxymethyl)-, polymer with 1,3-diisocyanatomethylbenzene and 2-methyloxirane",NA,NA,XU,INACTIVE
+163371,C32H21ClF2N6O11S3,835.2,5.1,6,18,FALSE,68413-52-5,42919,68413525,NA,NA,"2,7-Naphthalenedisulfonic acid, 5-(benzoylamino)-3-[2-[5-[[(5-chloro-2,6-difluoro-4-pyrimidinyl)amino]methyl]-1-sulfo-2-naphthalenyl]diazenyl]-4-hydroxy-",NA,NA,NA,INACTIVE
+112668,C38H70O2,559,17.5,2,2,FALSE,63451-51-4,33218,63451514,NA,NA,"1,4-Benzenediol, bis(1-methylpentadecyl)-",NA,NA,NA,INACTIVE
+109619,C17H15NO2,265.31,NA,1,3,FALSE,68140-47-6,40193,68140476,NA,NA,"Benzeneacetic acid, compd. with isoquinoline (1:1)",NA,NA,NA,INACTIVE
+72870,C8H6Cl2O,189.04,3,0,1,TRUE,2648-61-5,10331,2648615,NA,NA,"Ethanone, 2,2-dichloro-1-phenyl-",NA,NA,NA,INACTIVE
+74933753,C38H24N8Na4O13S4,1020.9,NA,0,20,FALSE,72869-20-6,56976,72869206,NA,NA,"Benzenesulfonic acid, 2-[2-[4-[oxido-2-[4-[2-(4-sulfophenyl)diazenyl]phenyl]diazenyl]-2-sulfophenyl]ethenyl]-5-[2-[4-[2-(4-sulfophenyl)diazenyl]phenyl]diazenyl]-, sodium salt (1:4)",NA,NA,NA,INACTIVE
+44145722,C38H24N8Na4O13S4,1020.9,NA,0,20,FALSE,72869-20-6,56976,72869206,NA,NA,"Benzenesulfonic acid, 2-[2-[4-[oxido-2-[4-[2-(4-sulfophenyl)diazenyl]phenyl]diazenyl]-2-sulfophenyl]ethenyl]-5-[2-[4-[2-(4-sulfophenyl)diazenyl]phenyl]diazenyl]-, sodium salt (1:4)",NA,NA,NA,INACTIVE
+112894,C15H30O2,242.4,6.1,0,2,FALSE,62637-96-1,32575,62637961,NA,NA,"Undecanoic acid, 2-methylpropyl ester",NA,NA,NA,INACTIVE
+116794,C18H21NO,267.4,5.2,1,2,FALSE,70682-64-3,52701,70682643,NA,NA,"Benzenamine, 4-(4-cyclohexylphenoxy)-",NA,NA,NA,INACTIVE
+3084749,C14H14N2O,226.27,2.7,1,2,TRUE,39627-98-0,28103,39627980,NA,NA,"2-Pyridinecarboxamide, N-(2,6-dimethylphenyl)-",NA,NA,NA,ACTIVE
+6591,C2H2Cl4,167.8,2.4,0,0,TRUE,79-34-5,656,79345,NA,NA,"Ethane, 1,1,2,2-tetrachloro-",NA,NA,NA,ACTIVE
+5284377,C14H12N2Na2O6S2,414.4,NA,2,8,FALSE,25394-13-2,23336,25394132,NA,NA,"Benzenesulfonic acid, 2,2'-(1,2-ethenediyl)bis[5-amino-, sodium salt (1:?)",NA,NA,NA,INACTIVE
+23675454,C14H13N2NaO6S2,392.4,NA,3,8,FALSE,25394-13-2,23336,25394132,NA,NA,"Benzenesulfonic acid, 2,2'-(1,2-ethenediyl)bis[5-amino-, sodium salt (1:?)",NA,NA,NA,INACTIVE
+2779345,C7H4FNaO2,162.09,NA,0,3,FALSE,499-57-0,4629,499570,NA,NA,"Benzoic acid, 3-fluoro-, sodium salt (1:1)",NA,NA,PMN; S; 5E,ACTIVE
+101847,C10H14F6N3P,321.2,NA,0,9,FALSE,733-51-7,6965,733517,NA,NA,"Benzenediazonium, 4-(diethylamino)-, hexafluorophosphate(1-) (1:1)",NA,NA,NA,INACTIVE
+9577746,C44H68O8S2Sn,907.8,NA,0,10,FALSE,68928-78-9,49763,68928789,NA,NA,"1,2-Benzenedicarboxylic acid, 1,1'-[(dibutylstannylene)bis(thio-2,1-ethanediyl)] 2,2'-diisooctyl ester",NA,NA,NA,INACTIVE
+133065685,C2H8O11Zn5,535,NA,8,11,FALSE,5970-61-6,13711,5970616,NA,NA,"Zincate(4-), bis[carbonato(2-)]pentaoxopenta-, hydrogen (1:4)",NA,NA,NA,ACTIVE
+6453849,C10H20N8O5,332.32,NA,8,7,FALSE,59767-05-4,31563,59767054,NA,NA,"L-Arginine, compd. with N-(2,5-dioxo-4-imidazolidinyl)urea (1:1)",NA,NA,NA,INACTIVE
+73556838,C6H4N4O5,212.12,0.1,0,6,TRUE,75184-02-0,58577,75184020,NA,NA,"Cyclohexadienone, 4(or 6)-diazo-2,6(or 2,4)-dinitro-",NA,NA,NA,INACTIVE
+103446,C10H19NO2,185.26,-1.2,2,3,TRUE,65728-19-0,35159,65728190,NA,NA,"4-Piperidinecarboxylic acid, 2,2,6,6-tetramethyl-",NA,NA,NA,INACTIVE
+123471,C8H12N2,136.19,0,2,2,TRUE,38020-69-8,27675,38020698,NA,NA,"Benzenemethanamine, 4-amino-N-methyl-",NA,NA,NA,INACTIVE
+81229,C10H23NO2,189.3,1.2,2,3,TRUE,6752-33-6,14534,6752336,NA,NA,"Ethanol, 2,2'-(hexylimino)bis-",NA,NA,PMN; S,ACTIVE
+10430,C5H10O2,102.13,1.2,1,2,TRUE,503-74-2,4671,503742,NA,NA,"Butanoic acid, 3-methyl-",NA,NA,NA,ACTIVE
+96381,C14H20O2,220.31,4.9,0,2,TRUE,68298-48-6,41538,68298486,NA,NA,"1,3-Benzodioxole, 2-hexyl-2-methyl-",NA,NA,NA,ACTIVE
+84889,C30H24Cl2FeN6O8,723.3,NA,0,14,FALSE,15388-48-4,19759,15388484,NA,NA,"Iron(2+), tris(2,2'-bipyridine-.kappa.N1,.kappa.N1')-, (OC-6-11)-, perchlorate (1:2)",NA,NA,NA,INACTIVE
+163360313,C18H35N3O6,389.5,NA,4,9,FALSE,72968-62-8,57358,72968628,NA,NA,"2-Butanone, oxime, polymer with 1,6-diisocyanatohexane and 2-ethyl-2-(hydroxymethyl)-1,3-propanediol",NA,NA,XU,ACTIVE
+522687,CrF3,108.991,NA,0,3,FALSE,7788-97-8,15439,7788978,NA,NA,Chromium fluoride (CrF3),NA,NA,NA,ACTIVE
+17171,C15H15ClN2O,274.74,NA,2,3,FALSE,2465-29-4,10037,2465294,NA,NA,"Xanthylium, 3,6-bis(methylamino)-, chloride (1:1)",NA,NA,NA,INACTIVE
+23617766,C15H15ClN2O,274.74,NA,2,3,FALSE,2465-29-4,10037,2465294,NA,NA,"Xanthylium, 3,6-bis(methylamino)-, chloride (1:1)",NA,NA,NA,INACTIVE
+493954,C15H15N2O+,239.29,2.3,2,2,TRUE,2465-29-4,10037,2465294,NA,NA,"Xanthylium, 3,6-bis(methylamino)-, chloride (1:1)",NA,NA,NA,INACTIVE
+65300,C10H21NO,171.28,2.5,1,1,TRUE,51115-67-4,29125,51115674,NA,NA,"Butanamide, N,2,3-trimethyl-2-(1-methylethyl)-",NA,NA,PMN,ACTIVE
+132274284,C8H3F4NaO2,230.09,NA,0,6,FALSE,1701446-39-0,68363,1701446390,NA,NA,"Benzoic acid, 4-fluoro-3-(trifluoromethyl)-, sodium salt (1:1)",NA,NA,PMN; S; 5E,ACTIVE
+75604,C20H8Cl2N2O4,411.2,4.2,2,6,TRUE,2490-60-0,10078,2490600,NA,NA,"Quino[2,3-b]acridine-6,7,13,14(5H,12H)-tetrone, 2,9-dichloro-",NA,NA,NA,ACTIVE
+44145980,C17H28O7,344.4,NA,1,7,FALSE,69288-63-7,51748,69288637,NA,NA,"2-Propenoic acid, butyl ester, polymer with ethyl 2-propenoate and 2-hydroxyethyl 2-propenoate",NA,NA,XU,INACTIVE
+168816,C33H60O15,696.8,NA,11,15,FALSE,28477-54-5,25052,28477545,NA,NA,"1,3-Benzenedicarboxylic acid, polymer with 2,2-dimethyl-1,3-propanediol, 2-ethyl-2-(hydroxymethyl)-1,3-propanediol, hexanedioic acid and 2,2,4-trimethyl-1,3-pentanediol",NA,NA,XU,ACTIVE
+65213,C19H10Cl2O4S,405.2,NA,0,3,FALSE,56046-85-6,30587,56046856,NA,NA,"Xanthylium, 3,6-dichloro-9-(2-sulfophenyl)-, inner salt",NA,NA,NA,ACTIVE
+6442130,C20H41NO4,359.5,NA,4,5,FALSE,68171-51-7,40656,68171517,NA,NA,"9-Hexadecenoic acid, (9Z)-, compd. with 2,2'-iminobis[ethanol] (1:1)",NA,NA,NA,INACTIVE
+87156,C6H4NNa2O6P,263.05,NA,0,6,FALSE,17573-66-9,20677,17573669,NA,NA,"Phosphoric acid, mono(2-nitrophenyl) ester, sodium salt (1:2)",NA,NA,NA,INACTIVE
+6850780,C40H40N12Na4O16S4,1165,NA,8,28,FALSE,16470-24-9,20242,16470249,NA,NA,"Benzenesulfonic acid, 2,2'-(1,2-ethenediyl)bis[5-[[4-[bis(2-hydroxyethyl)amino]-6-[(4-sulfophenyl)amino]-1,3,5-triazin-2-yl]amino]-, sodium salt (1:4)",NA,NA,NA,ACTIVE
+14422805,C40H40N12Na4O16S4,1165,NA,8,28,FALSE,12224-02-1,18018,12224021,NA,NA,"Benzenesulfonic acid, 2,2'-(1,2-ethenediyl)bis[5-[[4-[bis(2-hydroxyethyl)amino]-6-[(3-sulfophenyl)amino]-1,3,5-triazin-2-yl]amino]-, sodium salt (1:4)",NA,NA,NA,ACTIVE
+6709,C14H7ClO2,242.65,4,0,2,TRUE,82-44-0,1093,82440,NA,NA,"9,10-Anthracenedione, 1-chloro-",NA,NA,NA,ACTIVE
+6485,C15H22O,218.33,5.4,1,1,FALSE,77-61-2,538,77612,NA,NA,"Phenol, 2,4-dimethyl-6-(1-methylcyclohexyl)-",NA,NA,NA,ACTIVE
+85319,C6H11NO3,145.16,-0.6,1,3,TRUE,16180-96-4,20150,16180964,NA,NA,"Acetamide, N-[2-(acetyloxy)ethyl]-",NA,NA,NA,INACTIVE
+6436418,C16H16ClN5O3S,393.8,NA,0,8,FALSE,14970-38-8,19606,14970388,NA,NA,"Benzothiazolium, 6-methoxy-3-methyl-2-[3-methyl-3-(4-nitrophenyl)-1-triazenyl]-, chloride (1:1)",NA,NA,NA,INACTIVE
+122970,C8H18N6O2,230.27,0.2,4,6,TRUE,32813-95-9,26398,32813959,NA,NA,"Propanimidamide, 2,2'-(1,2-diazenediyl)bis[N-hydroxy-2-methyl-",NA,NA,NA,INACTIVE
+9576781,C8H18N6O2,230.27,0.2,4,6,TRUE,32813-95-9,26398,32813959,NA,NA,"Propanimidamide, 2,2'-(1,2-diazenediyl)bis[N-hydroxy-2-methyl-",NA,NA,NA,INACTIVE
+5486765,C8H18N6O2,230.27,0.2,4,6,TRUE,32813-95-9,26398,32813959,NA,NA,"Propanimidamide, 2,2'-(1,2-diazenediyl)bis[N-hydroxy-2-methyl-",NA,NA,NA,INACTIVE
+637566,C10H18O,154.25,2.9,1,1,TRUE,624-15-7,6375,624157,NA,NA,"2,6-Octadien-1-ol, 3,7-dimethyl-",NA,NA,NA,ACTIVE
+1201386,C3H4N2S,100.14,-0.3,2,1,TRUE,872-35-5,7301,872355,NA,NA,"2H-Imidazole-2-thione, 1,3-dihydro-",NA,NA,NA,ACTIVE
+3037264,C13H10N4O4S2,350.4,0.4,4,6,TRUE,63811-40-5,33548,63811405,NA,NA,"4,6(1H,5H)-Pyrimidinedione, 5-[5-(hexahydro-4,6-dioxo-2-thioxo-5-pyrimidinyl)-2,4-pentadien-1-ylidene]dihydro-2-thioxo-",NA,NA,NA,ACTIVE
+6441920,C13H10N4O4S2,350.4,0.4,4,6,TRUE,63811-40-5,33548,63811405,NA,NA,"4,6(1H,5H)-Pyrimidinedione, 5-[5-(hexahydro-4,6-dioxo-2-thioxo-5-pyrimidinyl)-2,4-pentadien-1-ylidene]dihydro-2-thioxo-",NA,NA,NA,ACTIVE
+6436315,C29H25ClN2S2,501.1,NA,0,4,FALSE,1742-90-1,9131,1742901,NA,NA,"Naphtho[1,2-d]thiazolium, 1-methyl-2-[2-[(1-methylnaphtho[1,2-d]thiazol-2(1H)-ylidene)methyl]-1-buten-1-yl]-, chloride (1:1)",NA,NA,NA,ACTIVE
+12257,C4H8O2,88.11,0.9,0,2,FALSE,625-55-8,6418,625558,NA,NA,"Formic acid, 1-methylethyl ester",NA,NA,NA,ACTIVE
+6335261,FeSb+3,177.6,NA,0,0,FALSE,12022-92-3,17486,12022923,NA,NA,"Antimony, compd. with iron (1:1)",NA,NA,NA,INACTIVE
+79464,C12H14O,174.24,3.1,0,1,TRUE,5422-88-8,13280,5422888,NA,NA,"Methanone, cyclopentylphenyl-",NA,NA,NA,INACTIVE
+112723,C18H39O4P,350.5,6.9,1,4,FALSE,61792-40-3,32307,61792403,NA,NA,"Phosphoric acid, monodecyl monooctyl ester",NA,NA,NA,ACTIVE
+171245,CeOSn+5,274.83,NA,0,1,FALSE,53169-23-6,29819,53169236,NA,NA,Cerium tin oxide (CeSnO4),NA,NA,NA,INACTIVE
+105331,C17H14Cl2N4O2,377.2,4.5,0,5,TRUE,66214-45-7,35729,66214457,NA,NA,"3H-Pyrazol-3-one, 2-(2,5-dichlorophenyl)-2,4-dihydro-4-[2-(2-methoxyphenyl)diazenyl]-5-methyl-",NA,NA,NA,INACTIVE
+13068,C15H12,192.25,5.1,0,0,FALSE,779-02-2,5058,779022,NA,NA,"Anthracene, 9-methyl-",NA,NA,NA,ACTIVE
+7922,C4H4O3,100.07,-0.5,0,3,TRUE,108-30-5,2560,108305,NA,NA,"2,5-Furandione, dihydro-",NA,NA,NA,ACTIVE
+112153,C15H19N5O4S,365.4,2.8,2,9,TRUE,69766-79-6,51857,69766796,NA,NA,"1,2-Propanediol, 3-[ethyl[3-methyl-4-[2-(5-nitro-2-thiazolyl)diazenyl]phenyl]amino]-",NA,NA,NA,ACTIVE
+172023,C18H19F22N2O8PS2,904.4,6.1,1,32,FALSE,67939-87-1,37971,67939871,NA,NA,"1-Pentanesulfonamide, N,N'-[phosphinicobis(oxy-2,1-ethanediyl)]bis[N-ethyl-1,1,2,2,3,3,4,4,5,5,5-undecafluoro-",NA,NA,S,INACTIVE
+7616,C9H21N,143.27,2.8,0,1,TRUE,102-69-2,2150,102692,NA,NA,"1-Propanamine, N,N-dipropyl-",NA,NA,NA,ACTIVE
+23665884,C14H29NaO5S,332.43,NA,0,5,FALSE,9004-82-4,16034,9004824,NA,NA,"Poly(oxy-1,2-ethanediyl), .alpha.-sulfo-.omega.-(dodecyloxy)-, sodium salt (1:1)",NA,NA,XU,ACTIVE
+87490204,C14H30NaO5S,333.44,NA,1,5,FALSE,9004-82-4,16034,9004824,NA,NA,"Poly(oxy-1,2-ethanediyl), .alpha.-sulfo-.omega.-(dodecyloxy)-, sodium salt (1:1)",NA,NA,XU,ACTIVE
+134813725,C14H33NNaO5S+,350.47,NA,2,6,FALSE,9004-82-4,16034,9004824,NA,NA,"Poly(oxy-1,2-ethanediyl), .alpha.-sulfo-.omega.-(dodecyloxy)-, sodium salt (1:1)",NA,NA,XU,ACTIVE
+107332,C5H7ClO3,150.56,0.7,0,3,TRUE,4755-81-1,12794,4755811,NA,NA,"Butanoic acid, 2-chloro-3-oxo-, methyl ester",NA,NA,NA,ACTIVE
+23702610,C22H17N2NaO8S2,524.5,NA,3,10,FALSE,15225-09-9,19703,15225099,NA,NA,"2-Anthracenesulfonic acid, 1-amino-9,10-dihydro-4-[[3-[(2-hydroxyethyl)sulfonyl]phenyl]amino]-9,10-dioxo-, sodium salt (1:1)",NA,NA,PMN,INACTIVE
+7110,C12H8Br2,312,5.7,0,0,FALSE,92-86-4,1604,92864,NA,NA,"1,1'-Biphenyl, 4,4'-dibromo-",NA,NA,S,ACTIVE
+166224,C25H14ClF2N5Na2O8S2,696,NA,3,15,FALSE,72139-17-4,55672,72139174,NA,NA,"2-Anthracenesulfonic acid, 1-amino-4-[[3-[(5-chloro-2,6-difluoro-4-pyrimidinyl)amino]-2-methyl-5-sulfophenyl]amino]-9,10-dihydro-9,10-dioxo-, sodium salt (1:2)",NA,NA,NA,ACTIVE
+22043,C9H9BrO2,229.07,3.5,0,2,TRUE,5798-75-4,13559,5798754,NA,NA,"Benzoic acid, 4-bromo-, ethyl ester",NA,NA,NA,INACTIVE
+106363,C27H26N2O6S2,538.6,6.7,2,8,FALSE,68015-60-1,38558,68015601,NA,NA,"Benzenesulfonic acid, 2-amino-, 1,1'-[(1-methylethylidene)di-4,1-phenylene] ester",NA,NA,NA,ACTIVE
+70337,C12H16O,176.25,3.5,0,1,TRUE,942-92-7,7526,942927,NA,NA,"1-Hexanone, 1-phenyl-",NA,NA,NA,ACTIVE
+24540,H9N2O4P,132.06,NA,3,4,FALSE,7783-28-0,10795,7783280,NA,NA,"Phosphoric acid, ammonium salt (1:2)",NA,NA,NA,ACTIVE
+53432490,C25H49N2NaO6S,528.7,NA,3,7,FALSE,68134-15-6,40018,68134156,NA,NA,"1-Propanesulfonic acid, 2-hydroxy-3-[(2-hydroxyethyl)[2-[(1-oxo-9-octadecen-1-yl)amino]ethyl]amino]-, sodium salt (1:1)",NA,NA,NA,ACTIVE
+23668643,C25H49N2NaO6S,528.7,NA,3,7,FALSE,68134-15-6,40018,68134156,NA,NA,"1-Propanesulfonic acid, 2-hydroxy-3-[(2-hydroxyethyl)[2-[(1-oxo-9-octadecen-1-yl)amino]ethyl]amino]-, sodium salt (1:1)",NA,NA,NA,ACTIVE
+23688492,C25H49N2NaO6S,528.7,NA,3,7,FALSE,68134-15-6,40018,68134156,NA,NA,"1-Propanesulfonic acid, 2-hydroxy-3-[(2-hydroxyethyl)[2-[(1-oxo-9-octadecen-1-yl)amino]ethyl]amino]-, sodium salt (1:1)",NA,NA,NA,ACTIVE
+9865,C2H4S,60.12,0.6,0,1,FALSE,420-12-2,4306,420122,NA,NA,Thiirane,NA,NA,NA,ACTIVE
+127,C8H8O3,152.15,0.8,2,3,TRUE,156-38-7,3906,156387,NA,NA,"Benzeneacetic acid, 4-hydroxy-",NA,NA,NA,ACTIVE
+83069,C15H33N3,255.44,4.2,0,3,TRUE,13036-83-4,18247,13036834,NA,NA,"1,3,5-Triazine, 1,3,5-tributylhexahydro-",NA,NA,NA,INACTIVE
+11144,C48H93AlO6,793.2,NA,0,6,FALSE,555-35-1,5455,555351,NA,NA,"Hexadecanoic acid, aluminum salt (3:1)",NA,NA,NA,ACTIVE
+54611958,C16H32AlO2,283.41,NA,1,2,FALSE,555-35-1,5455,555351,NA,NA,"Hexadecanoic acid, aluminum salt (3:1)",NA,NA,NA,ACTIVE
+57350927,C48H93AlO6-3,793.2,NA,0,6,FALSE,555-35-1,5455,555351,NA,NA,"Hexadecanoic acid, aluminum salt (3:1)",NA,NA,NA,ACTIVE
+6427,C2Cl4F2,203.8,3.4,0,2,TRUE,76-12-0,496,76120,NA,NA,"Ethane, 1,1,2,2-tetrachloro-1,2-difluoro-",NA,NA,NA,ACTIVE
+9999,C2N2,52.03,0.1,0,2,FALSE,460-19-5,4434,460195,NA,NA,Ethanedinitrile,NA,NA,NA,ACTIVE
+6455606,C19H36O2S,328.6,NA,2,3,FALSE,67874-90-2,37260,67874902,NA,NA,"2-Propenoic acid, telomer with 1,3-butadiene and 1-dodecanethiol",NA,NA,XU,INACTIVE
+5485710,C36H14Cl6N12Na4O14S4,1271.5,NA,4,26,FALSE,68867-63-0,48371,68867630,NA,NA,"Triphenodioxazinedisulfonic acid, 6,13-dichloro-3,10-bis[[4-[(4,6-dichloro-1,3,5-triazin-2-yl)amino]sulfophenyl]amino]-, sodium salt (1:4)",NA,NA,NA,ACTIVE
+77761,C9H18N3O4P,263.23,-4.1,3,4,TRUE,4116-00-1,12215,4116001,NA,NA,"Propanamide, 3,3',3''-phosphinylidynetris-",NA,NA,NA,INACTIVE
+117056,C17H18O2,254.32,3.4,1,2,TRUE,71195-68-1,54140,71195681,NA,NA,"Benzoic acid, 2-[[4-(1-methylethyl)phenyl]methyl]-",NA,NA,NA,INACTIVE
+167296,C3H10N6O7P2,304.1,NA,7,13,FALSE,15541-60-3,19830,15541603,NA,NA,"Diphosphoric acid, compd. with 1,3,5-triazine-2,4,6-triamine (1:?)",NA,NA,NA,ACTIVE
+16717614,C4H14O8Pb3,810,NA,4,8,FALSE,1335-32-6,8556,1335326,NA,NA,"Lead, bis(acetato-.kappa.O)tetrahydroxytri-",NA,NA,NA,ACTIVE
+18503859,C4H14O8Pb3,810,NA,4,8,FALSE,1335-32-6,8556,1335326,NA,NA,"Lead, bis(acetato-.kappa.O)tetrahydroxytri-",NA,NA,NA,ACTIVE
+16685321,C4H6O4Pb,325,NA,0,4,FALSE,1335-32-6,8556,1335326,NA,NA,"Lead, bis(acetato-.kappa.O)tetrahydroxytri-",NA,NA,NA,ACTIVE
+6455489,C13H25ClN2O3,292.8,NA,1,4,FALSE,67504-24-9,36033,67504249,NA,NA,"Ethanaminium, N,N,N-trimethyl-2-[(2-methyl-1-oxo-2-propen-1-yl)oxy]-, chloride (1:1), polymer with 2-methyl-2-propenamide",NA,NA,FRI; PMN; XU,ACTIVE
+76642,C18H14ClN5O5,415.8,4.5,2,8,TRUE,3177-13-7,11306,3177137,NA,NA,"Ethanol, 2-[[4-[2-(2-chloro-4,6-dinitrophenyl)diazenyl]-1-naphthalenyl]amino]-",NA,NA,NA,INACTIVE
+117564,C11H13NO3,207.23,2.1,1,3,TRUE,25628-84-6,23460,25628846,NA,NA,"Benzoic acid, 2-[(1-oxopropyl)amino]-, methyl ester",NA,NA,NA,ACTIVE
+94131,C4H9N3,99.13,0.6,1,3,FALSE,58605-87-1,31289,58605871,NA,NA,"Hydrazinecarbonitrile, 1-(1-methylethyl)-",NA,NA,NA,INACTIVE
+92507,C18H42O6S3Si2,506.9,NA,0,9,FALSE,56706-11-7,30762,56706117,NA,NA,"3,15-Dioxa-8,9,10-trithia-4,14-disilaheptadecane, 4,4,14,14-tetraethoxy-",NA,NA,PMN,ACTIVE
+44148158,C23H40O10,476.6,NA,3,10,FALSE,118276-84-9,62719,118276849,NA,NA,"2-Propenoic acid, 2-methyl-, methyl ester, polymer with butyl 2-propenoate and 2-hydroxyethyl 2-propenoate, 6-hydroxyhexanoate",NA,NA,FRI; PMN; XU,INACTIVE
+641294,C10H10O2,162.18,1.8,0,2,TRUE,1963-36-6,9355,1963366,NA,NA,"2-Propenal, 3-(4-methoxyphenyl)-",NA,NA,NA,ACTIVE
+8017,C2H8N2O,76.1,-1.6,3,3,FALSE,109-84-2,2678,109842,NA,NA,"Ethanol, 2-hydrazinyl-",NA,NA,NA,ACTIVE
+174922,C24H12Cl3N5Na2O8S2,714.8,NA,3,13,FALSE,72139-12-9,55667,72139129,NA,NA,"2-Anthracenesulfonic acid, 1-amino-9,10-dihydro-9,10-dioxo-4-[[3-sulfo-4-[(2,5,6-trichloro-4-pyrimidinyl)amino]phenyl]amino]-, sodium salt (1:2)",NA,NA,NA,INACTIVE
+90299,C28H22N2O4,450.5,7.1,4,6,FALSE,23941-48-2,22591,23941482,NA,NA,"9,10-Anthracenedione, 1,4-dihydroxy-5,8-bis[(4-methylphenyl)amino]-",NA,NA,NA,INACTIVE
+111640,C24H21N3O14S4,703.7,0.7,5,16,FALSE,68833-99-8,48205,68833998,NA,NA,"2-Naphthalenesulfonic acid, 7-(acetylamino)-4-hydroxy-3-[2-[6-sulfo-8-[[2-(sulfooxy)ethyl]sulfonyl]-2-naphthalenyl]diazenyl]-",NA,NA,NA,INACTIVE
+66991,C8H11NO,137.18,0.7,0,2,TRUE,114-91-0,2836,114910,NA,NA,"Pyridine, 2-(2-methoxyethyl)-",NA,NA,NA,INACTIVE
+81462,C8H19NO5,209.24,-3.3,5,6,TRUE,6976-37-0,14684,6976370,NA,NA,"1,3-Propanediol, 2-[bis(2-hydroxyethyl)amino]-2-(hydroxymethyl)-",NA,NA,NA,ACTIVE
+171955,C21H39NO5S,417.6,NA,4,6,FALSE,67889-94-5,37325,67889945,NA,NA,"Benzenesulfonic acid, isoundecyl-, compd. with 2,2'-iminobis[ethanol] (1:1)",NA,NA,NA,INACTIVE
+66694,C12H16ClNO,225.71,2.8,0,2,TRUE,92-10-4,1544,92104,NA,NA,"Benzaldehyde, 4-[(2-chloroethyl)ethylamino]-2-methyl-",NA,NA,NA,INACTIVE
+79517,C10H11NO4,209.2,2.1,0,4,TRUE,5445-26-1,13329,5445261,NA,NA,"Benzeneacetic acid, 4-nitro-, ethyl ester",NA,NA,NA,INACTIVE
+79585,C9H11NO,149.19,1.7,0,1,TRUE,5461-49-4,13370,5461494,NA,NA,"Formamide, N-ethyl-N-phenyl-",NA,NA,NA,INACTIVE
+109461,C12H26N2,198.35,2.6,2,2,TRUE,68541-08-2,45149,68541082,NA,NA,"2,4-Pentanediamine, N2-cyclohexyl-4-methyl-",NA,NA,NA,INACTIVE
+135434846,C9H10N2O2,178.19,1.8,2,4,TRUE,4937-86-4,12897,4937864,NA,NA,"1,2-Propanedione, 1-phenyl-, 1,2-dioxime",NA,NA,NA,INACTIVE
+16683946,C40H80O4Sn,743.8,NA,0,4,FALSE,3648-18-8,11808,3648188,NA,NA,"Stannane, dioctylbis[(1-oxododecyl)oxy]-",NA,NA,NA,ACTIVE
+101846,C15H27NO3S,301.4,NA,0,3,FALSE,733-44-8,6964,733448,NA,NA,"Ethanaminium, N,N,N-triethyl-, 4-methylbenzenesulfonate (1:1)",NA,NA,NA,ACTIVE
+174475,C20H17N3Na2O11S3,617.5,NA,2,13,FALSE,85536-87-4,60264,85536874,NA,NA,"2-Naphthalenesulfonic acid, 7-(acetylamino)-4-hydroxy-3-[2-[4-[[2-(sulfooxy)ethyl]sulfonyl]phenyl]diazenyl]-, sodium salt (1:?)",NA,NA,NA,ACTIVE
+6437213,C26H33N3O4,451.6,NA,0,6,FALSE,68072-51-5,39121,68072515,NA,NA,"Ethanaminium, 2-[[2-cyano-3-[4-(diethylamino)phenyl]-1-oxo-2-propen-1-yl]oxy]-N,N,N-trimethyl-, benzoate (1:1)",NA,NA,NA,INACTIVE
+6857837,C21H41NO4S,403.6,6.1,1,4,FALSE,97-80-3,833,97803,NA,NA,"Ethanesulfonic acid, 2-[methyl[(9Z)-1-oxo-9-octadecen-1-yl]amino]-",NA,NA,NA,ACTIVE
+168754,H6N4O4Pd,232.49,NA,2,8,FALSE,28068-05-5,24879,28068055,NA,NA,"Palladium, diamminebis(nitrito-.kappa.O)-",NA,NA,NA,ACTIVE
+166635,Cu2HO5P,239.07,NA,1,5,FALSE,12158-74-6,17937,12158746,NA,NA,Copper hydroxide phosphate (Cu2(OH)(PO4)),NA,NA,PMN,ACTIVE
+93999,C17H25Cl,264.8,6.2,0,0,FALSE,58243-84-8,31183,58243848,NA,NA,"Naphthalene, 6-(chloromethyl)-7-ethyl-1,2,3,4-tetrahydro-1,1,4,4-tetramethyl-",NA,NA,NA,INACTIVE
+6337016,BiY,297.88624,NA,0,0,FALSE,12421-82-8,18151,12421828,NA,NA,"Bismuth, compd. with yttrium (1:1)",NA,NA,NA,INACTIVE
+21125261,C28H35N3O2,445.6,NA,1,4,FALSE,72102-66-0,55584,72102660,NA,NA,"Methylium, bis[4-(dimethylamino)phenyl][4-(ethylamino)-3-methylphenyl]-, acetate (1:1)",NA,NA,NA,ACTIVE
+14233,C5H12N2O,116.16,0,2,1,TRUE,1118-12-3,7849,1118123,NA,NA,"Urea, N-(1,1-dimethylethyl)-",NA,NA,NA,ACTIVE
+172569,MnO3Zr,194.16,NA,0,3,FALSE,70692-94-3,52722,70692943,NA,NA,Manganese zirconium oxide (MnZrO3),NA,NA,NA,INACTIVE
+51808,C10H12N2Na2O8Zn,399.6,NA,0,10,FALSE,12519-36-7,18169,12519367,NA,NA,"Zincate(2-), [[N,N'-1,2-ethanediylbis[N-[(carboxy-.kappa.O)methyl]glycinato-.kappa.N,.kappa.O]](4-)]-, (OC-6-21)-",NA,NA,NA,INACTIVE
+8816,C21H38BrN,384.4,NA,0,1,FALSE,140-72-7,3653,140727,NA,NA,"Pyridinium, 1-hexadecyl-, bromide (1:1)",NA,NA,NA,ACTIVE
+105053,I3K,419.8117,NA,0,1,FALSE,12298-68-9,18112,12298689,NA,NA,Potassium iodide (K(I3)),NA,NA,NA,ACTIVE
+108608,C14H14N2O5,290.27,2.7,1,6,TRUE,54554-39-1,30197,54554391,NA,NA,"2-Propenoic acid, 2-[[[(3-isocyanatomethylphenyl)amino]carbonyl]oxy]ethyl ester",NA,NA,NA,INACTIVE
+116695,C29H66O11Si4,703.2,NA,0,11,FALSE,70776-64-6,53062,70776646,NA,NA,"Cyclotrisiloxane, 2-methyl-2,4,4,6-tetrakis(1-methylpropoxy)-6-[[tris(1-methylpropoxy)silyl]oxy]-",NA,NA,NA,INACTIVE
+102116,C23H38O5,394.5,NA,4,5,FALSE,1337-89-9,5131,1337899,NA,NA,"1-Phenanthrenecarboxylic acid, 1,2,3,4,4a,4b,5,6,10,10a-decahydro-1,4a-dimethyl-7-(1-methylethyl)-, (1R,4aR,4bR,10aR)-, ester with 1,2,3-propanetriol",NA,NA,NA,INACTIVE
+7818,C6H14N2,114.19,-0.4,0,2,TRUE,106-58-1,2436,106581,NA,NA,"Piperazine, 1,4-dimethyl-",NA,NA,NA,ACTIVE
+105609,C22H15N5O11S2,589.5,3,5,15,FALSE,67786-16-7,36707,67786167,NA,NA,"2,7-Naphthalenedisulfonic acid, 4-[2-[2,4-dihydroxy-5-[2-(4-nitrophenyl)diazenyl]phenyl]diazenyl]-5-hydroxy-",NA,NA,NA,INACTIVE
+89905,C9H11NO3,181.19,1.6,3,4,TRUE,22919-58-0,22368,22919580,NA,NA,"1-Propanone, 1-(2,4-dihydroxyphenyl)-, oxime",NA,NA,NA,INACTIVE
+103063,C30H23N5O6S,581.6,4.3,5,9,FALSE,65036-45-5,34579,65036455,NA,NA,"2-Naphthalenesulfonic acid, 7-[(4-aminobenzoyl)amino]-3-[2-[4-(benzoylamino)phenyl]diazenyl]-4-hydroxy-",NA,NA,NA,INACTIVE
+74322,C12H10F17NO3S,571.25,5.1,1,21,FALSE,1691-99-2,9033,1691992,NA,NA,"1-Octanesulfonamide, N-ethyl-1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-N-(2-hydroxyethyl)-",NA,NA,S,ACTIVE
+6455712,C9H13Cl2N,206.11,NA,1,1,FALSE,68016-19-3,38615,68016193,NA,NA,"Benzenamine, polymer with 1,2-dichloropropane",NA,NA,XU,INACTIVE
+6336857,B2Hf,200.11,NA,0,0,FALSE,12007-23-7,17209,12007237,NA,NA,Hafnium boride (HfB2),NA,NA,NA,ACTIVE
+52199765,C9H7Cl3O2,253.5,4,0,2,TRUE,86569-82-6,60435,86569826,NA,NA,"Benzoic acid, 2,3,6-trichloro-, ethyl ester",NA,NA,PMN; S; 5E,ACTIVE
+103178,C35H41IN2O4S2,744.7,NA,0,8,FALSE,65104-20-3,34696,65104203,NA,NA,"Spiro[cyclohexane-1,2'-[1,3]dioxolo[4,5-f]benzothiazolium], 7'-ethyl-6'-[2-[(7'-ethylspiro[cyclohexane-1,2'-[1,3]dioxolo[4,5-f]benzothiazol]-6'(7'H)-ylidene)methyl]-1-buten-1-yl]-, iodide (1:1)",NA,NA,NA,INACTIVE
+91911,C17H21NO,255.35,5.4,1,2,FALSE,55877-07-1,30523,55877071,NA,NA,"8-Quinolinol, 7-(2-ethyl-1-hexen-1-yl)-",NA,NA,NA,INACTIVE
+13177338,C17H21NO,255.35,5.4,1,2,FALSE,55877-07-1,30523,55877071,NA,NA,"8-Quinolinol, 7-(2-ethyl-1-hexen-1-yl)-",NA,NA,NA,INACTIVE
+23688981,C9H13NaO4,208.19,NA,0,4,FALSE,41487-53-0,28446,41487530,NA,NA,"2-Propenoic acid, 2-methyl-, polymer with ethyl 2-propenoate, sodium salt",NA,NA,XU,ACTIVE
+83446,C6BaCl2O4,344.29,NA,0,4,FALSE,13435-46-6,18517,13435466,NA,NA,"2,5-Cyclohexadiene-1,4-dione, 2,5-dichloro-3,6-dihydroxy-, barium salt (1:1)",NA,NA,NA,ACTIVE
+116920,C23H18N4,350.4,7.1,0,4,FALSE,70865-38-2,53276,70865382,NA,NA,"Diazene, 1-[4-[2-(3-methylphenyl)diazenyl]-1-naphthalenyl]-2-phenyl-",NA,NA,NA,INACTIVE
+118628,C8H4CoO4,223.05,NA,0,4,FALSE,34262-88-9,26687,34262889,NA,NA,"1,4-Benzenedicarboxylic acid, cobalt salt (1:?)",NA,NA,NA,INACTIVE
+70981,C7H6ClNO2S,203.65,2.8,0,3,TRUE,1199-36-6,8092,1199366,NA,NA,"Benzene, 1-chloro-4-(methylthio)-2-nitro-",NA,NA,NA,ACTIVE
+44153865,C16H26Cl2O5,369.3,NA,0,5,FALSE,71426-97-6,54483,71426976,NA,NA,"2-Propenoic acid, butyl ester, polymer with 1,1-dichloroethene and 2-ethoxyethyl 2-propenoate",NA,NA,XU,INACTIVE
+24582,C33H52O2,480.8,13,2,2,FALSE,7786-17-6,10864,7786176,NA,NA,"Phenol, 2,2'-methylenebis[4-methyl-6-nonyl-",NA,NA,NA,ACTIVE
+136075960,C33H20N7Na3O10S2,807.7,NA,3,17,FALSE,72152-90-0,55730,72152900,NA,NA,"Benzoic acid, 5-[2-[4-[2-[4-[2-(6-amino-1-hydroxy-3-sulfo-2-naphthalenyl)diazenyl]-7-sulfo-1-naphthalenyl]diazenyl]phenyl]diazenyl]-2-hydroxy-, sodium salt (1:3)",NA,NA,NA,INACTIVE
+74657,C8H7BrO3,231.04,2.4,1,3,TRUE,1878-91-7,5182,1878917,NA,NA,"Acetic acid, 2-(4-bromophenoxy)-",NA,NA,NA,INACTIVE
+84561,C36H75AlO3,583,NA,0,3,FALSE,14624-15-8,19500,14624158,NA,NA,"1-Dodecanol, aluminum salt (3:1)",NA,NA,NA,INACTIVE
+7310,C6H4ClNO5S,237.62,1.1,1,5,TRUE,96-73-1,1848,96731,NA,NA,"Benzenesulfonic acid, 2-chloro-5-nitro-",NA,NA,NA,ACTIVE
+163423,C34H30CrN10NaO8S2,845.8,NA,2,16,FALSE,84812-61-3,60119,84812613,NA,NA,"Chromate(1-), bis[4-[2-[4,5-dihydro-3-methyl-5-(oxo-.kappa.O)-1-phenyl-1H-pyrazol-4-yl]diazenyl-.kappa.N1]-5-(hydroxy-.kappa.O)-2-methylbenzenesulfonamidato(2-)]-, sodium (1:1)",NA,NA,NA,INACTIVE
+81196,C18H30O4,310.4,5.5,0,4,FALSE,6701-13-9,14504,6701139,NA,NA,"2-Propenoic acid, 2-methyl-, 1,1'-(1,10-decanediyl) ester",NA,NA,NA,ACTIVE
+25222,C10H12N2O3,208.21,1.2,0,4,TRUE,10389-51-2,16884,10389512,NA,NA,"Morpholine, 4-(4-nitrophenyl)-",NA,NA,NA,INACTIVE
+6441043,C14H29N,211.39,5,1,1,TRUE,40853-87-0,22097,40853870,NA,NA,"9-Tetradecen-1-amine, (9Z)-",NA,NA,NA,INACTIVE
+18604,C14H28O,212.37,6.3,0,1,FALSE,3234-28-4,11366,3234284,NA,NA,"Oxirane, 2-dodecyl-",NA,NA,NA,ACTIVE
+7144,C8H10O2,138.16,1.3,1,2,TRUE,93-51-6,1647,93516,NA,NA,"Phenol, 2-methoxy-4-methyl-",NA,NA,NA,ACTIVE
+70990,C6HCl6N,299.8,4.4,0,1,TRUE,1201-30-5,8098,1201305,NA,NA,"Pyridine, 3,4,5-trichloro-2-(trichloromethyl)-",NA,NA,NA,ACTIVE
+10459,C16H30O4,286.41,5.4,2,4,FALSE,505-54-4,4693,505544,NA,NA,Hexadecanedioic acid,NA,NA,NA,ACTIVE
+85789,C13H26O2,214.34,5,0,2,TRUE,14936-67-5,19594,14936675,NA,NA,"2-Undecanol, 2-acetate",NA,NA,NA,INACTIVE
+109181,C12H24O,184.32,4.6,0,1,TRUE,68141-14-0,40258,68141140,NA,NA,"Nonanal, 5-ethyl-2-methyl-",NA,NA,NA,ACTIVE
+93838,C15H26O3,254.36,3.1,0,3,TRUE,57967-74-5,31105,57967745,NA,NA,"1-Oxaspiro[4.5]decan-6-ol, 2,6,10,10-tetramethyl-, 6-acetate, (2R,5R,6S)-rel-",NA,NA,NA,INACTIVE
+108787,C15H26O3,254.36,3.1,0,3,TRUE,57967-74-5,31105,57967745,NA,NA,"1-Oxaspiro[4.5]decan-6-ol, 2,6,10,10-tetramethyl-, 6-acetate, (2R,5R,6S)-rel-",NA,NA,NA,INACTIVE
+4334719,C11H16N2O2,208.26,4.1,0,4,TRUE,53880-05-0,29997,53880050,NA,NA,"Cyclohexane, 5-isocyanato-1-(isocyanatomethyl)-1,3,3-trimethyl-, homopolymer",NA,NA,XU,ACTIVE
+105226,C12H16ClNO4,273.71,3.9,0,4,TRUE,65879-43-8,35245,65879438,NA,NA,"Benzene, 1-chloro-2,5-bis(1-methylethoxy)-4-nitro-",NA,NA,NA,INACTIVE
+93552,C10H8O2,160.17,2.3,2,2,TRUE,581-43-1,5625,581431,NA,NA,"2,6-Naphthalenediol",NA,NA,NA,ACTIVE
+23715909,C7H13KO5,216.27,NA,2,5,FALSE,67906-94-9,37684,67906949,NA,NA,"2-Propenoic acid, polymer with 2,2'-oxybis[ethanol], potassium salt",NA,NA,XU,INACTIVE
+168517,C7H10O3,142.15,NA,0,3,FALSE,26337-35-9,23944,26337359,NA,NA,"Acetic acid ethenyl ester, polymer with carbon monoxide and ethene",NA,NA,XU,ACTIVE
+44154128,C15H26O2,238.37,3.7,0,2,TRUE,121251-68-1,62895,121251681,NA,NA,"Spiro[bicyclo[4.1.0]heptane-2,5'-[1,3]dioxane], 2',2',3,7,7-pentamethyl-, (1R,3R,6S)-rel-",NA,NA,PMN,ACTIVE
+38855,C21H40O4,356.5,7.5,0,4,FALSE,41395-83-9,28419,41395839,NA,NA,"Nonanoic acid, 1,1'-(1-methyl-1,2-ethanediyl) ester",NA,NA,NA,ACTIVE
+117634,C15H10N2O2,250.25,3.6,0,3,TRUE,25771-65-7,23597,25771657,NA,NA,"Quinoline, 8-nitro-4-phenyl-",NA,NA,NA,INACTIVE
+135666507,C22H14CaN2O6S,474.5,NA,1,8,FALSE,29779-09-7,25547,29779097,NA,NA,"2-Naphthalenecarboxylic acid, 3-hydroxy-4-[2-[1-(sulfomethyl)-2-naphthalenyl]diazenyl]-, calcium salt (1:1)",NA,NA,NA,INACTIVE
+80156,C4H12N4,116.17,-1.3,4,4,TRUE,6054-74-6,13778,6054746,NA,NA,"1,3,5,7-Tetrazocine, octahydro-",NA,NA,NA,INACTIVE
+111678,C15H28N2O3,284.39,1.8,1,4,TRUE,63451-23-0,33201,63451230,NA,NA,"Propanoic acid, 3-[2-(2-heptyl-4,5-dihydro-1H-imidazol-1-yl)ethoxy]-",NA,NA,NA,INACTIVE
+6455681,C32H38O5,502.6,NA,4,5,FALSE,67970-08-5,38194,67970085,NA,NA,"Formaldehyde, polymer with 4-(1,1-dimethylethyl)phenol, 4,4'-(1-methylethylidene)bis[phenol] and phenol",NA,NA,XU,INACTIVE
+99206,C20H22N2O4,354.4,3.6,2,6,TRUE,63466-98-8,33224,63466988,NA,NA,"9,10-Anthracenedione, 1,4-bis[(2-methoxyethyl)amino]-",NA,NA,NA,INACTIVE
+166803,C6O12Sc2,353.97,NA,0,12,FALSE,13419-51-7,18497,13419517,NA,NA,"Ethanedioic acid, scandium(3+) salt (3:2)",NA,NA,NA,INACTIVE
+105378,C21H22ClN7O7,519.9,3.1,2,11,FALSE,66693-27-4,35913,66693274,NA,NA,"Propanamide, N-[2-[2-(2-chloro-4,6-dinitrophenyl)diazenyl]-5-[[2-(2-cyanoethoxy)ethyl]amino]-4-methoxyphenyl]-",NA,NA,NA,INACTIVE
+108574,C6H15NO2,133.19,-0.7,1,3,TRUE,54303-31-0,30128,54303310,NA,NA,"1-Propanamine, 3-(2-methoxyethoxy)-",NA,NA,NA,ACTIVE
+69048,C25H31N3,373.5,5.7,0,3,FALSE,603-48-5,5928,603485,NA,NA,"Benzenamine, 4,4',4''-methylidynetris[N,N-dimethyl-",NA,NA,NA,ACTIVE
+102447,C5H10Cl2,141.04,2.8,0,0,TRUE,600-11-3,5907,600113,NA,NA,"Pentane, 2,3-dichloro-",NA,NA,NA,INACTIVE
+65625,C4H8Na2O6S4,326.4,NA,0,8,FALSE,16208-51-8,20153,16208518,NA,NA,"Ethanesulfonic acid, 2,2'-dithiobis-, sodium salt (1:2)",NA,NA,NA,ACTIVE
+76182,C13H12ClNO2S,281.76,3.4,1,3,TRUE,2903-34-6,10608,2903346,NA,NA,"Benzenesulfonamide, N-(4-chlorophenyl)-4-methyl-",NA,NA,NA,INACTIVE
+6029,C9H12N2O6,244.2,-2,4,6,TRUE,58-96-8,195,58968,NA,NA,Uridine,NA,NA,NA,ACTIVE
+61021,C8H16O4,176.21,1.1,0,4,TRUE,9002-91-9,15952,9002919,NA,NA,"Acetaldehyde, homopolymer",NA,NA,XU,ACTIVE
+165789,C15H24O2,236.35,NA,1,2,FALSE,9086-40-2,16440,9086402,NA,NA,"Formaldehyde, polymer with (1,1,3,3-tetramethylbutyl)phenol",NA,NA,XU,ACTIVE
+5283356,C11H20O,168.28,4.2,0,1,TRUE,1337-83-3,5130,1337833,NA,NA,Undecenal,NA,NA,NA,ACTIVE
+81856,C14H28O5S,308.44,4.2,1,5,TRUE,56022-49-2,30581,56022492,NA,NA,"Dodecanoic acid, 2-sulfoethyl ester",NA,NA,NA,INACTIVE
+3085479,C7H15NO6,209.2,-1.9,3,6,TRUE,71477-84-4,54523,71477844,NA,NA,"Carbamic acid, N,N-bis(hydroxymethyl)-, 2-(2-hydroxyethoxy)ethyl ester",NA,NA,NA,INACTIVE
+23671849,C24H43NaO6,450.6,NA,0,6,FALSE,25383-99-7,23334,25383997,NA,NA,"Octadecanoic acid, 2-(1-carboxyethoxy)-1-methyl-2-oxoethyl ester, sodium salt (1:1)",NA,NA,NA,ACTIVE
+20149,C40H82,563.1,21.3,0,0,FALSE,4181-95-7,12273,4181957,NA,NA,Tetracontane,NA,NA,NA,ACTIVE
+67722,C3H2F5NO,163.05,0.9,1,6,TRUE,354-76-7,4189,354767,NA,NA,"Propanamide, 2,2,3,3,3-pentafluoro-",NA,NA,NA,INACTIVE
+44147988,C18H39O6P,382.5,NA,2,6,FALSE,71965-23-6,55384,71965236,NA,NA,"Oxirane, 2-methyl-, polymer with oxirane, mono(dihydrogen phosphate), tridecyl ether",NA,NA,XU,ACTIVE
+95767,C14H15NO,213.27,2.2,0,2,TRUE,72187-39-4,55819,72187394,NA,NA,"Pyridine, 2-[2-(phenylmethoxy)ethyl]-",NA,NA,NA,INACTIVE
+170643,C13H10Br2N2O4S,450.1,5,0,5,TRUE,42372-37-2,28625,42372372,NA,NA,"1-Naphthalenesulfonic acid, 6-diazo-5,6-dihydro-5-oxo-, 2,3-dibromopropyl ester",NA,NA,NA,INACTIVE
+62388,C13H20O3,224.3,1.9,0,3,TRUE,20073-13-6,21420,20073136,NA,NA,"Cyclopentaneacetic acid, 3-oxo-2-(2Z)-2-penten-1-yl-, methyl ester, (1R,2R)-rel-",NA,NA,NA,INACTIVE
+5281929,C13H20O3,224.3,1.9,0,3,TRUE,20073-13-6,21420,20073136,NA,NA,"Cyclopentaneacetic acid, 3-oxo-2-(2Z)-2-penten-1-yl-, methyl ester, (1R,2R)-rel-",NA,NA,NA,INACTIVE
+5319693,C13H20O3,224.3,1.9,0,3,TRUE,20073-13-6,21420,20073136,NA,NA,"Cyclopentaneacetic acid, 3-oxo-2-(2Z)-2-penten-1-yl-, methyl ester, (1R,2R)-rel-",NA,NA,NA,INACTIVE
+5367719,C13H20O3,224.3,1.9,0,3,TRUE,20073-13-6,21420,20073136,NA,NA,"Cyclopentaneacetic acid, 3-oxo-2-(2Z)-2-penten-1-yl-, methyl ester, (1R,2R)-rel-",NA,NA,NA,INACTIVE
+22659,C21H35ClN2O3,399,NA,1,4,FALSE,6272-74-8,13987,6272748,NA,NA,"Pyridinium, 1-[2-oxo-2-[[2-[(1-oxododecyl)oxy]ethyl]amino]ethyl]-, chloride (1:1)",NA,NA,NA,INACTIVE
+103138,C23H28N6O7S2,564.6,NA,5,13,FALSE,65072-43-7,34625,65072437,NA,NA,"7-Benzothiazolesulfonic acid, 2-[4-[2-[4,5-dihydro-1-(hydroxymethyl)-3-methyl-5-oxo-1H-pyrazol-4-yl]diazenyl]phenyl]-6-methyl-, compd. with 2,2'-iminobis[ethanol] (1:1)",NA,NA,NA,INACTIVE
+169414,C22H20Cl6O11,673.1,NA,6,11,FALSE,32313-05-6,26240,32313056,NA,NA,"Bicyclo[2.2.1]hept-5-ene-2,3-dicarboxylic acid, 1,4,5,6,7,7-hexachloro-, polymer with 2,2-bis(hydroxymethyl)-1,3-propanediol and 1,3-isobenzofurandione",NA,NA,XU,INACTIVE
+103114,C20H45NO4S,395.6,NA,0,4,FALSE,65060-02-8,33843,65060028,NA,NA,"1-Hexadecanaminium, N,N,N-trimethyl-, methyl sulfate (1:1)",NA,NA,NA,ACTIVE
+111809,C21H30ClNO,347.9,NA,0,2,FALSE,68928-63-2,49748,68928632,NA,NA,"1-Propanaminium, N,N,N-trimethyl-3-[4-(1-methyl-1-phenylethyl)phenoxy]-, chloride (1:1)",NA,NA,NA,INACTIVE
+132494145,C28H31Cl2FeN5O6,660.3,NA,1,11,FALSE,478945-46-9,67106,478945469,NA,NA,"Iron(1+), chloro[rel-1,5-dimethyl (1R,2S,4R,5S)-9,9-dihydroxy-3-methyl-2,4-di(2-pyridinyl-.kappa.N)-7-[(2-pyridinyl-.kappa.N)methyl]-3,7-diazabicyclo[3.3.1]nonane-1,5-dicarboxylate-.kappa.N3,.kappa.N7]-, chloride (1:1), (OC-6-63)-",NA,NA,PMN; S; 5E,ACTIVE
+67179,C10H18O,154.25,2.7,1,1,TRUE,126-90-9,3326,126909,NA,NA,"1,6-Octadien-3-ol, 3,7-dimethyl-, (3S)-",NA,NA,NA,ACTIVE
+8304,C9H21O3P,208.23,2.5,0,3,TRUE,116-17-6,2875,116176,NA,NA,"Phosphorous acid, tris(1-methylethyl) ester",NA,NA,NA,ACTIVE
+138401803,C40H46Cl4N8O2Zn,878,NA,0,12,FALSE,72208-33-4,55887,72208334,NA,NA,"Phenoxazin-5-ium, 3-[(2-cyanoethyl)methylamino]-7-(diethylamino)-, (T-4)-tetrachlorozincate(2-) (2:1)",NA,NA,NA,INACTIVE
+106244,C20H43O4P,378.5,7.4,1,4,FALSE,67953-31-5,38087,67953315,NA,NA,"1-Nonanol, 8-methyl-, 1,1'-(hydrogen phosphate)",NA,NA,NA,INACTIVE
+88215,C14H22O5,270.32,2.3,1,5,TRUE,19727-16-3,17383,19727163,NA,NA,"2-Propenoic acid, 2-methyl-, 1,1'-[2-ethyl-2-(hydroxymethyl)-1,3-propanediyl] ester",NA,NA,NA,ACTIVE
+78701,C3H9Br2N,218.92,NA,2,1,FALSE,5003-71-4,12935,5003714,NA,NA,"1-Propanamine, 3-bromo-, hydrobromide (1:1)",NA,NA,NA,ACTIVE
+5280805,C27H30O16,610.5,-1.3,10,16,FALSE,153-18-4,3894,153184,NA,NA,"4H-1-Benzopyran-4-one, 3-[[6-O-(6-deoxy-.alpha.-L-mannopyranosyl)-.beta.-D-glucopyranosyl]oxy]-2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-",NA,NA,NA,ACTIVE
+6442010,C24H26N2O2,374.5,NA,1,2,FALSE,72089-18-0,55549,72089180,NA,NA,"3H-Indolium, 1,3,3-trimethyl-2-[2-(2-methyl-1H-indol-3-yl)ethenyl]-, acetate (1:1)",NA,NA,NA,INACTIVE
+6441754,C46H88N2O7,781.2,NA,4,9,FALSE,68541-13-9,45154,68541139,NA,NA,"9,12-Octadecadienoic acid (9Z,12Z)-, dimer, polymer with 3,3'-[oxybis(2,1-ethanediyloxy)]bis[1-propanamine]",NA,NA,XU,ACTIVE
+73555473,C34H34CaCl2N10O14S4,1045.9,NA,2,20,FALSE,320748-53-6,66785,320748536,NA,NA,"Benzenesulfonic acid, 4-chloro-2-[2-[4,5-dihydro-3-methyl-5-oxo-1-(3-sulfophenyl)-1H-pyrazol-4-yl]diazenyl]-5-methyl-, ammonium calcium salt (2:2:1)",NA,NA,PMN,ACTIVE
+70506,C10H12O,148.2,2,0,1,TRUE,67952-67-4,38029,67952674,NA,NA,"1H-Indene, 2,3-dihydromethoxy-",NA,NA,NA,INACTIVE
+8559,C14H18O4,250.29,4,0,4,TRUE,131-16-8,3453,131168,NA,NA,"1,2-Benzenedicarboxylic acid, 1,2-dipropyl ester",NA,NA,NA,ACTIVE
+516896,IKO4,230,NA,0,4,FALSE,7790-21-8,15485,7790218,NA,NA,"Periodic acid (HIO4), potassium salt (1:1)",NA,NA,NA,ACTIVE
+17181,C10H28N2OSi2,248.51,NA,2,3,FALSE,2469-55-8,10047,2469558,NA,NA,"1-Propanamine, 3,3'-(1,1,3,3-tetramethyl-1,3-disiloxanediyl)bis-",NA,NA,NA,ACTIVE
+116860,C12H24Cl2N2O2,299.23,NA,2,3,FALSE,70729-70-3,52880,70729703,NA,NA,"1-Propanaminium, 3-chloro-2-hydroxy-N,N-dimethyl-N-[3-[(2-methyl-1-oxo-2-propen-1-yl)amino]propyl]-, chloride (1:1)",NA,NA,NA,ACTIVE
+167353,C9H9AlO6,240.15,NA,0,6,FALSE,15743-20-1,19930,15743201,NA,NA,"2-Propenoic acid, aluminum salt (3:1)",NA,NA,NA,ACTIVE
+136086469,C21H12MnN2O6S,475.3,NA,1,8,FALSE,73019-26-8,57667,73019268,NA,NA,"2-Naphthalenecarboxylic acid, 3-hydroxy-4-[2-(6-sulfo-2-naphthalenyl)diazenyl]-, manganese(2+) salt (1:1)",NA,NA,NA,ACTIVE
+154734662,C30H26CuN6Na4O15S4,994.3,NA,5,21,FALSE,289632-60-6,66688,289632606,NA,NA,"Cuprate(4-), [2-(amino-.kappa.N)ethanol][7-[2-[3-(hydroxy-.kappa.O)-4-[2-[1-(hydroxy-.kappa.O)-3-sulfo-7-[(2-sulfoethyl)amino]-2-naphthalenyl]diazenyl-.kappa.N1]phenyl]diazenyl]-1,3-naphthalenedisulfonato(6-)]-, sodium (1:4)",NA,NA,PMN,ACTIVE
+24593,BrCu,143.45,NA,0,0,FALSE,7787-70-4,15432,7787704,NA,NA,Copper bromide (CuBr),NA,NA,NA,ACTIVE
+102176,C14H12F17NO4S,613.29,6.1,0,22,FALSE,1869-77-8,5170,1869778,NA,NA,"Glycine, N-ethyl-N-[(1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluorooctyl)sulfonyl]-, ethyl ester",NA,NA,S,INACTIVE
+88624,C6H5ClN2O4S,236.63,1.6,1,5,TRUE,20628-33-5,21600,20628335,NA,NA,"Benzenesulfonyl chloride, 2-amino-5-nitro-",NA,NA,NA,INACTIVE
+23688949,C32H22N5NaO3S,579.6,NA,1,8,FALSE,31820-78-7,26148,31820787,NA,NA,"1-Naphthalenesulfonic acid, 8-(phenylamino)-5-[2-[4-(2-phenyldiazenyl)-1-naphthalenyl]diazenyl]-, sodium salt (1:1)",NA,NA,NA,INACTIVE
+96229,C23H24N4O2,388.5,4,0,4,TRUE,1251-85-0,8153,1251850,NA,NA,"3H-Pyrazol-3-one, 4,4'-methylenebis[1,2-dihydro-1,5-dimethyl-2-phenyl-",NA,NA,NA,INACTIVE
+116767,C19H30O2,290.4,5.7,0,2,FALSE,71393-94-7,54422,71393947,NA,NA,"2H-Pyran, tetrahydro-2-(3,13-tetradecadiyn-1-yloxy)-",NA,NA,NA,INACTIVE
+69743,C12H6O3,198.17,2.5,0,3,TRUE,716-39-2,6939,716392,NA,NA,"Naphtho[2,3-c]furan-1,3-dione",NA,NA,NA,INACTIVE
+23664344,C20H40NNaO4S,413.6,NA,1,4,FALSE,25080-09-5,22993,25080095,NA,NA,"Ethanesulfonic acid, 2-[(1-oxooctadecyl)amino]-, sodium salt (1:1)",NA,NA,NA,INACTIVE
+109569,C25H54N2O6S,510.8,NA,2,6,FALSE,68134-09-8,40013,68134098,NA,NA,"Ethanaminium, 2-hydroxy-N,N-dimethyl-N-[2-[(1-oxooctadecyl)amino]ethyl]-, methyl sulfate (1:1)",NA,NA,NA,INACTIVE
+23675871,C17H17N4NaO3,348.33,NA,1,6,FALSE,67893-43-0,37498,67893430,NA,NA,"Acetic acid, 2-[3-[4-(benzoylamino)-3-methylphenyl]-1-methyl-2-triazen-1-yl]-, sodium salt (1:1)",NA,NA,NA,INACTIVE
+10951,C12H16N2O4S,284.33,NA,4,6,FALSE,542-16-5,5313,542165,NA,NA,"Benzenamine, sulfate (2:1)",NA,NA,NA,ACTIVE
+61024,C12H24O2,200.32,4.5,0,2,TRUE,109-15-9,2625,109159,NA,NA,"Propanoic acid, 2-methyl-, octyl ester",NA,NA,NA,ACTIVE
+32227,C12H18O,178.27,3.1,0,1,TRUE,24142-77-6,22627,24142776,NA,NA,"Benzene, (1-methyl-1-propoxyethyl)-",NA,NA,NA,INACTIVE
+10855589,C7H12O3,144.17,1.3,1,3,TRUE,33537-17-6,26531,33537176,NA,NA,"3-Butenoic acid, 2-hydroxy-3-methyl-, ethyl ester",NA,NA,PMN,ACTIVE
+14064911,C12H24O2,200.32,2.9,1,2,TRUE,38618-23-4,27824,38618234,NA,NA,"Ethanol, 2-[[5-methyl-2-(1-methylethyl)cyclohexyl]oxy]-",NA,NA,PMN,ACTIVE
+8491,C7H6ClNO2,171.58,3.4,0,2,TRUE,121-86-8,3123,121868,NA,NA,"Benzene, 2-chloro-1-methyl-4-nitro-",NA,NA,NA,INACTIVE
+138395916,C17H29ClN8O7S2+2,557,NA,4,10,FALSE,154946-66-4,64612,154946664,NA,NA,"Benzenesulfonic acid, 4-chloro-2-[2-[4,5-dihydro-3-methyl-5-oxo-1-(3-sulfophenyl)-1H-pyrazol-4-yl]diazenyl]-5-methyl-, ammonium salt (1:2)",NA,NA,PMN,ACTIVE
+101955512,C12H10N3NaO3S,299.28,NA,1,6,FALSE,1325-54-8,8413,1325548,NA,NA,C.I. Direct Orange 39,"This substance is identified in the COLOUR INDEX by Colour Index Constitution Number, C.I. 40215.",NA,NA,ACTIVE
+5491096,C30H16CuN10Na2O14S2,914.2,NA,1,21,FALSE,72479-32-4,56408,72479324,NA,NA,"Cuprate(2-), [3-[2-[2-(hydroxy-.kappa.O)-4-hydroxy-5-[2-(4-nitrophenyl)diazenyl]-3-[2-[4-[(4-nitro-2-sulfophenyl)amino]phenyl]diazenyl]phenyl]diazenyl-.kappa.N1]-4-(hydroxy-.kappa.O)-5-nitrobenzenesulfonato(4-)]-, sodium (1:2)",NA,NA,NA,INACTIVE
+42963,C14H18N2O5,294.3,-1.6,3,6,TRUE,59160-29-1,31432,59160291,NA,NA,"Glycine, N-(carboxymethyl)-N-[2-[(2,6-dimethylphenyl)amino]-2-oxoethyl]-",NA,NA,NA,INACTIVE
+18444,C9H8N2OS,192.24,3,1,3,TRUE,3137-83-5,11246,3137835,NA,NA,"Acetamide, N-(3-isothiocyanatophenyl)-",NA,NA,NA,ACTIVE
+67296,C15H24O,220.35,6.2,1,1,FALSE,25154-52-3,23124,25154523,NA,NA,"Phenol, nonyl-",NA,NA,SP,ACTIVE
+23688932,C15H23KO,258.44,NA,0,1,FALSE,25154-52-3,23124,25154523,NA,NA,"Phenol, nonyl-",NA,NA,SP,ACTIVE
+109238,C29H50N6O4,546.7,-0.3,6,10,FALSE,68227-54-3,41230,68227543,NA,NA,"2-Propanol, 1,1'-[(1-methylethylidene)bis(4,1-phenyleneoxy)]bis[3-[bis(2-aminoethyl)amino]-",NA,NA,NA,INACTIVE
+15447,C4H4Cl2,122.98,2.7,0,0,TRUE,1653-19-6,8962,1653196,NA,NA,"1,3-Butadiene, 2,3-dichloro-",NA,NA,NA,ACTIVE
+79085,C6H12N2,112.17,0.4,0,2,TRUE,627-70-3,6482,627703,NA,NA,"2-Propanone, 2-(1-methylethylidene)hydrazone",NA,NA,NA,ACTIVE
+109580,C10H22O2,174.28,2.2,0,2,TRUE,68134-24-7,40027,68134247,NA,NA,"Butane, 1-[2-(1,1-dimethylethoxy)ethoxy]-",NA,NA,NA,INACTIVE
+10393,C8H10O2,138.16,0.4,2,2,TRUE,501-94-0,4647,501940,NA,NA,"Benzeneethanol, 4-hydroxy-",NA,NA,NA,ACTIVE
+8507,C27H31N2NaO6S2,566.7,NA,0,7,FALSE,129-17-9,3409,129179,NA,NA,"Ethanaminium, N-[4-[[4-(diethylamino)phenyl](2,4-disulfophenyl)methylene]-2,5-cyclohexadien-1-ylidene]-N-ethyl-, inner salt, sodium salt (1:1)",NA,NA,NA,ACTIVE
+44147871,C18H28BrN,338.3,NA,0,1,FALSE,125252-52-0,63085,125252520,NA,NA,"3H-Indolium, 1-heptyl-2,3,3-trimethyl-, bromide (1:1)",NA,NA,PMN,INACTIVE
+2723873,C22H12N4Na4O13S4,760.6,NA,1,17,FALSE,6226-79-5,13914,6226795,NA,NA,"2,7-Naphthalenedisulfonic acid, 3-hydroxy-4-[2-[2-sulfo-4-[2-(4-sulfophenyl)diazenyl]phenyl]diazenyl]-, sodium salt (1:4)",NA,NA,NA,ACTIVE
+66016,C11H18N2,178.27,1.3,1,2,TRUE,102-11-4,2120,102114,NA,NA,"1,2-Ethanediamine, N1,N2-dimethyl-N1-(phenylmethyl)-",NA,NA,NA,ACTIVE
+74884,C9H4F15I,524.01,6.8,0,15,FALSE,2043-52-9,9438,2043529,NA,NA,"Nonane, 1,1,1,2,2,3,3,4,4,5,5,6,6,7,7-pentadecafluoro-9-iodo-",NA,NA,NA,INACTIVE
+93886,C17H19F3N2O,324.34,3.4,0,5,TRUE,58721-74-7,31308,58721747,NA,NA,"7H-Pyrrolo[3,2-g]quinolin-7-one, 1,2,3,8-tetrahydro-1,2,3,3,8-pentamethyl-5-(trifluoromethyl)-",NA,NA,NA,INACTIVE
+13658,C9H10O3,166.17,1.7,1,3,TRUE,940-31-8,7517,940318,NA,NA,"Propanoic acid, 2-phenoxy-",NA,NA,NA,ACTIVE
+20838922,C34H61NO7,595.8,10.8,1,7,FALSE,68906-34-3,48694,68906343,NA,NA,"L-Aspartic acid, N-[(2Z)-3-carboxy-1-oxo-2-propen-1-yl]-N-octadecyl-, bis(2-methylpropyl) ester",NA,NA,NA,ACTIVE
+6437207,C19H34O2,294.5,7,0,2,FALSE,68039-29-2,38857,68039292,NA,NA,"Nonanoic acid, (2E)-3,7-dimethyl-2,6-octadien-1-yl ester",NA,NA,NA,INACTIVE
+5463397,C23H23IN2,454.3,NA,0,2,FALSE,634-21-9,6606,634219,NA,NA,"Quinolinium, 1-ethyl-2-[(1-ethyl-4(1H)-quinolinylidene)methyl]-, iodide (1:1)",NA,NA,NA,ACTIVE
+87494,C4H9Cl3Si,191.55,NA,0,0,FALSE,18171-74-9,20925,18171749,NA,NA,"Silane, trichloro(1,1-dimethylethyl)-",NA,NA,NA,ACTIVE
+11979711,C50H34CuN8O14,1034.4,NA,4,18,FALSE,65104-05-4,34690,65104054,NA,NA,"Cuprate(2-), bis[2-[2-[2-(hydroxy-.kappa.O)-3-[[(4-methoxyphenyl)amino]carbonyl]-1-naphthalenyl]diazenyl-.kappa.N1]-4-nitrobenzoato(2-)-.kappa.O]-, hydrogen (1:2)",NA,NA,NA,INACTIVE
+13853,C5H10O,86.13,1.4,0,1,FALSE,1003-14-1,7654,1003141,NA,NA,"Oxirane, 2-propyl-",NA,NA,PMN,ACTIVE
+81208,C28H18N2Na2O10S2,652.6,NA,2,10,FALSE,6711-83-7,14514,6711837,NA,NA,"Benzamide, N,N'-[9,10-bis(sulfooxy)-1,5-anthracenediyl]bis-, sodium salt (1:2)",NA,NA,NA,INACTIVE
+12859587,C11H20O,168.28,3.3,0,1,TRUE,5331-32-8,13153,5331328,NA,NA,"Bicyclo[2.2.1]heptane, 2-methoxy-1,7,7-trimethyl-, (1R,2R,4R)-rel-",NA,NA,NA,ACTIVE
+220050,C11H20O,168.28,3.3,0,1,TRUE,5331-32-8,13153,5331328,NA,NA,"Bicyclo[2.2.1]heptane, 2-methoxy-1,7,7-trimethyl-, (1R,2R,4R)-rel-",NA,NA,NA,ACTIVE
+95330,C11H20O,168.28,3.3,0,1,TRUE,5331-32-8,13153,5331328,NA,NA,"Bicyclo[2.2.1]heptane, 2-methoxy-1,7,7-trimethyl-, (1R,2R,4R)-rel-",NA,NA,NA,ACTIVE
+102601210,C11H20O,168.28,3.3,0,1,TRUE,5331-32-8,13153,5331328,NA,NA,"Bicyclo[2.2.1]heptane, 2-methoxy-1,7,7-trimethyl-, (1R,2R,4R)-rel-",NA,NA,NA,ACTIVE
+134688399,C11H20O,168.28,3.3,0,1,TRUE,5331-32-8,13153,5331328,NA,NA,"Bicyclo[2.2.1]heptane, 2-methoxy-1,7,7-trimethyl-, (1R,2R,4R)-rel-",NA,NA,NA,ACTIVE
+17092,C12H23N,181.32,4.7,0,1,TRUE,2437-25-4,9984,2437254,NA,NA,Dodecanenitrile,NA,NA,NA,ACTIVE
+6455672,C19H20N2O3,324.4,NA,1,5,FALSE,67969-76-0,38162,67969760,NA,NA,"4,7-Methano-1H-inden-6-ol, 3a,4,5,6,7,7a-hexahydro-, polymer with 1,3-diisocyanatomethylbenzene",NA,NA,XU,INACTIVE
+61754,Cl4H8N2Zn,243.3,NA,2,1,FALSE,14639-97-5,19508,14639975,NA,NA,"Zincate(2-), tetrachloro-, ammonium (1:2), (T-4)-",NA,NA,NA,ACTIVE
+44149540,C44H91N3O6S,790.3,NA,3,7,FALSE,112576-48-4,62404,112576484,NA,NA,"Sulfuric acid, monoethyl ester, compd. with N,N'-[(ethylimino)di-2,1-ethanediyl]bis[octadecanamide] (1:1)",NA,NA,NA,INACTIVE
+103148,C10H10N2,158.2,1.9,1,2,TRUE,65079-19-8,34635,65079198,NA,NA,"6-Quinolinamine, 2-methyl-",NA,NA,PMN,ACTIVE
+61906,C20H44ClN,334,NA,0,1,FALSE,32426-11-2,26268,32426112,NA,NA,"1-Decanaminium, N,N-dimethyl-N-octyl-, chloride (1:1)",NA,NA,NA,ACTIVE
+13931131,C22H23N3O2,361.4,4.2,1,4,TRUE,4899-82-5,12876,4899825,NA,NA,"2-Naphthalenecarboxamide, 4-[[4-(diethylamino)phenyl]imino]-1,4-dihydro-N-methyl-1-oxo-",NA,NA,PMN,ACTIVE
+111374,C14H26O,210.36,5.2,0,1,FALSE,68833-92-1,48198,68833921,NA,NA,"2-Undecen-4-one, 7-ethyl-2-methyl-",NA,NA,NA,INACTIVE
+159632,C16H30O4Sn,405.1,NA,0,4,FALSE,1912-83-0,5227,1912830,NA,NA,"Octanoic acid, tin(2+) salt (2:1)",NA,NA,NA,ACTIVE
+522401,C12H19N,177.29,4.2,0,1,TRUE,710-40-7,6930,710407,NA,NA,"Pyridine, 5-hexyl-2-methyl-",NA,NA,PMN,ACTIVE
+155006,C12H18O5,242.27,1.6,1,5,TRUE,67905-48-0,37549,67905480,NA,NA,"2-Propenoic acid, 1,1'-(2-hydroxy-1,6-hexanediyl) ester",NA,NA,NA,INACTIVE
+7517,C6H11NO,113.16,1.2,1,2,TRUE,100-64-1,2022,100641,NA,NA,"Cyclohexanone, oxime",NA,NA,NA,ACTIVE
+14029936,C30H46BaO2,576,NA,0,2,FALSE,28987-17-9,25244,28987179,NA,NA,"Phenol, nonyl-, barium salt (2:1)",NA,NA,NA,ACTIVE
+89211,C19H34O2,294.5,6.4,0,2,FALSE,19754-59-7,17389,19754597,NA,NA,"2H-Pyran, tetrahydro-2-(9-tetradecyn-1-yloxy)-",NA,NA,NA,INACTIVE
+68396,C9H18N2,154.25,0.5,1,2,TRUE,556-72-9,5483,556729,NA,NA,"Pyrimidine, 1,2,5,6-tetrahydro-2,2,4,6,6-pentamethyl-",NA,NA,NA,ACTIVE
+69633,C2H4ClNO,93.51,1,1,2,FALSE,683-58-9,6802,683589,NA,NA,"Ethanimidoyl chloride, N-hydroxy-",NA,NA,NA,INACTIVE
+5464216,C2H4ClNO,93.51,1,1,2,FALSE,683-58-9,6802,683589,NA,NA,"Ethanimidoyl chloride, N-hydroxy-",NA,NA,NA,INACTIVE
+9571064,C2H4ClNO,93.51,1,1,2,FALSE,683-58-9,6802,683589,NA,NA,"Ethanimidoyl chloride, N-hydroxy-",NA,NA,NA,INACTIVE
+6455669,C34H60N2O4,560.9,NA,1,5,FALSE,67953-84-8,38138,67953848,NA,NA,"2-Propenoic acid, 2-methyl-, octadecyl ester, polymer with N-(1,1-dimethyl-3-oxobutyl)-2-propenamide and 2-propenenitrile",NA,NA,XU,INACTIVE
+5283349,C10H16O,152.23,3.2,0,1,TRUE,25152-84-5,23115,25152845,NA,NA,"2,4-Decadienal, (2E,4E)-",NA,NA,NA,ACTIVE
+136075999,C34H24Li4N6O16S4,928.7,NA,4,22,FALSE,71550-22-6,54665,71550226,NA,NA,"2,7-Naphthalenedisulfonic acid, 3,3'-[(3,3'-dimethoxy[1,1'-biphenyl]-4,4'-diyl)bis(2,1-diazenediyl)]bis[5-amino-4-hydroxy-, lithium salt (1:4)",NA,NA,NA,INACTIVE
+168462,C33H40O5,516.7,NA,4,5,FALSE,26022-00-4,23753,26022004,NA,NA,"Formaldehyde, polymer with 4-(1,1-dimethylethyl)phenol, 4,4'-(1-methylethylidene)bis[phenol] and 4-methylphenol",NA,NA,XU,ACTIVE
+5455,C6H12N2S4,240.4,1.7,0,4,TRUE,137-26-8,3565,137268,NA,NA,"Thioperoxydicarbonic diamide ([(H2N)C(S)]2S2), N,N,N',N'-tetramethyl-",NA,NA,NA,ACTIVE
+82671,C20H27O4P,362.4,4.7,1,4,TRUE,21150-89-0,21728,21150890,NA,NA,"Phenol, 4-(1,1-dimethylethyl)-, 1,1'-(hydrogen phosphate)",NA,NA,NA,ACTIVE
+3776,C3H8O,60.1,0.3,1,1,FALSE,67-63-0,321,67630,NA,NA,2-Propanol,NA,NA,NA,ACTIVE
+117011,C12H22O,182.3,3.9,1,1,TRUE,71084-08-7,54002,71084087,NA,NA,9-Dodecyn-1-ol,NA,NA,NA,INACTIVE
+44154107,C48H30N2O13S,874.8,NA,2,15,FALSE,125881-35-8,63230,125881358,NA,NA,"1,3-Isobenzofurandione, 5,5'-[[1,1'-biphenyl]-4,4'-diylbis(oxy)]bis-, polymer with 1,3-isobenzofurandione and 4,4'-sulfonylbis[benzenamine]",NA,NA,XU; Y1,INACTIVE
+44151975,C42H50N12O8S,883,NA,0,16,FALSE,72749-67-8,56621,72749678,NA,NA,"4H-1,2,4-Triazolium, 5-[2-[4-[[2-(benzoyloxy)ethyl]ethylamino]phenyl]diazenyl]-1,4-dimethyl-, sulfate (2:1)",NA,NA,NA,INACTIVE
+11137142,BF4NO,116.81,NA,0,6,FALSE,14635-75-7,19504,14635757,NA,NA,"Borate(1-), tetrafluoro-, nitrosyl (1:1)",NA,NA,NA,ACTIVE
+5754183,C24H16N2O2,364.4,6.2,0,4,FALSE,5045-43-2,12963,5045432,NA,NA,"Benzoxazole, 2,2'-(1,4-phenylenedi-2,1-ethenediyl)bis-",NA,NA,NA,INACTIVE
+6399014,C14H11NO2,225.24,3.7,1,3,TRUE,574-15-2,5583,574152,NA,NA,"1,2-Ethanedione, 1,2-diphenyl-, 1-oxime, (1E)-",NA,NA,NA,INACTIVE
+6398987,C14H11NO2,225.24,3.7,1,3,TRUE,574-15-2,5583,574152,NA,NA,"1,2-Ethanedione, 1,2-diphenyl-, 1-oxime, (1E)-",NA,NA,NA,INACTIVE
+162538,C21H16N2O4,360.4,2.3,2,5,TRUE,74082-22-7,47032,74082227,NA,NA,"1H-Indene-6-carboxamide, 3-hydroxy-2-(3-hydroxy-2-quinolinyl)-N,N-dimethyl-1-oxo-",NA,NA,NA,INACTIVE
+6437763,C14H26O,210.36,4.8,1,1,TRUE,63025-02-5,32710,63025025,NA,NA,"9,11-Tetradecadien-1-ol, (9E,11Z)-",NA,NA,NA,INACTIVE
+44148348,C38H24K2N8Na2O13S4,1053.1,NA,0,20,FALSE,120206-81-7,62830,120206817,NA,NA,"Benzenesulfonic acid, 2-[2-[4-[1-oxido-2-[4-[2-(4-sulfophenyl)diazenyl]phenyl]diazenyl]-2-sulfophenyl]ethenyl]-5-[2-[4-[2-(4-sulfophenyl)diazenyl]phenyl]diazenyl]-, potassium sodium salt (1:?:?)",NA,NA,NA,INACTIVE
+81312,C7H9O3P,172.12,-0.1,2,3,TRUE,6881-57-8,14611,6881578,NA,NA,"Phosphonic acid, P-(phenylmethyl)-",NA,NA,NA,INACTIVE
+168684,C23H32O6,404.5,NA,2,6,FALSE,27306-39-4,24601,27306394,NA,NA,"2-Propenoic acid, 2-methyl-, methyl ester, polymer with butyl 2-propenoate, ethenylbenzene and 2-propenoic acid",NA,NA,XU,ACTIVE
+110630,C22H40N2Na2O6,474.5,NA,1,6,FALSE,68610-43-5,46776,68610435,NA,NA,"1H-Imidazolium, 1-[2-(2-carboxyethoxy)ethyl]-1(or 3)-(2-carboxyethyl)-4,5-dihydro-2-undecyl-, hydroxide, sodium salt (1:1:2)",NA,NA,NA,INACTIVE
+24517,O4S2Zn,193.5,NA,0,6,FALSE,7779-86-4,15417,7779864,NA,NA,"Dithionous acid, zinc salt (1:1)",NA,NA,NA,ACTIVE
+73557469,C8H15NaO3S,214.26,NA,0,3,FALSE,3578-64-1,11742,3578641,NA,NA,"1-Octene-1-sulfonic acid, sodium salt (1:1)",NA,NA,NA,INACTIVE
+23720410,C8H15NaO3S,214.26,NA,0,3,FALSE,3578-64-1,11742,3578641,NA,NA,"1-Octene-1-sulfonic acid, sodium salt (1:1)",NA,NA,NA,INACTIVE
+87477,C12H28O4Si,264.43,NA,0,4,FALSE,18151-86-5,20909,18151865,NA,NA,"Silicic acid (H4SiO4), bis(1,1-dimethylethyl) diethyl ester",NA,NA,NA,INACTIVE
+23675288,C7HF4NaO2,216.06,NA,0,6,FALSE,67852-79-3,37083,67852793,NA,NA,"Benzoic acid, 2,3,4,5-tetrafluoro-, sodium salt (1:1)",NA,NA,PMN; S; 5E,ACTIVE
+168538,C22H30O5,374.5,NA,1,5,FALSE,26428-43-3,24032,26428433,NA,NA,"2-Propenoic acid, 2-methyl-, 2-oxiranylmethyl ester, polymer with butyl 2-propenoate and ethenylbenzene",NA,NA,XU,ACTIVE
+3102,C13H10O,182.22,3.4,0,1,TRUE,119-61-9,3007,119619,NA,NA,"Methanone, diphenyl-",NA,NA,NA,ACTIVE
+25007,DyN3O9,348.52,NA,0,9,FALSE,10143-38-1,16672,10143381,NA,NA,"Nitric acid, dysprosium(3+) salt (3:1)",NA,NA,NA,ACTIVE
+23679262,C17H12N3NaO4S2,409.4,NA,1,7,FALSE,6764-27-8,14538,6764278,NA,NA,"7-Benzothiazolesulfonic acid, 2-[4-[(2-cyanoacetyl)amino]phenyl]-6-methyl-, sodium salt (1:1)",NA,NA,NA,ACTIVE
+160844,C47H39N2NaO6S2,814.9,NA,0,7,FALSE,6483-73-4,14353,6483734,NA,NA,"Benzenemethanaminium, N-[4-[[4-[bis(phenylmethyl)amino]phenyl](2,4-disulfophenyl)methylene]-2,5-cyclohexadien-1-ylidene]-N-(phenylmethyl)-, inner salt, sodium salt (1:1)",NA,NA,NA,INACTIVE
+100993,C22H44O2,340.6,8.9,0,2,FALSE,59231-37-7,31451,59231377,NA,NA,"Hexanoic acid, 3,5,5-trimethyl-, isotridecyl ester",NA,NA,NA,ACTIVE
+6254,C14H8N2O8S2,396.4,2.7,2,10,TRUE,69-78-3,343,69783,NA,NA,"Benzoic acid, 3,3'-dithiobis[6-nitro-",NA,NA,NA,ACTIVE
+87386,C7H10N2O6,218.16,1.2,0,6,TRUE,17977-13-8,20839,17977138,NA,NA,"2-Propenoic acid, 2-methyl-, 2,2-dinitropropyl ester",NA,NA,NA,INACTIVE
+12613,C10H20O2,172.26,3.1,0,2,TRUE,659-70-1,6747,659701,NA,NA,"Butanoic acid, 3-methyl-, 3-methylbutyl ester",NA,NA,NA,ACTIVE
+20417,C5H9NO2,115.13,-0.6,0,2,TRUE,4394-85-8,12470,4394858,NA,NA,4-Morpholinecarboxaldehyde,NA,NA,PMN,ACTIVE
+111888,C24H31ClN4O5S,523,NA,2,8,FALSE,68957-35-7,50509,68957357,NA,NA,"Formic acid, compd. with 3-[[4-[3-(4-chlorophenyl)-4,5-dihydro-1H-pyrazol-1-yl]phenyl]sulfonyl]-N-[3-(dimethylamino)propyl]propanamide (1:1)",NA,NA,NA,INACTIVE
+24832091,C20H38O11,454.5,-1.5,3,11,FALSE,9004-57-3,16021,9004573,NA,NA,"Cellulose, ethyl ether",NA,NA,XU,ACTIVE
+21118878,C6H13NO10P2,321.12,-6.3,6,11,FALSE,70008-54-7,52064,70008547,NA,NA,"L-Aspartic acid, N,N-bis(phosphonomethyl)-",NA,NA,NA,INACTIVE
+112186,C6H13NO10P2,321.12,-6.3,6,11,FALSE,70008-54-7,52064,70008547,NA,NA,"L-Aspartic acid, N,N-bis(phosphonomethyl)-",NA,NA,NA,INACTIVE
+6436082,C20H28O,284.4,6.2,0,1,FALSE,514-85-2,4775,514852,NA,NA,"Retinal, 9-cis-",NA,NA,NA,INACTIVE
+67034,C18H16N4O7S2,464.5,0.9,4,10,TRUE,117-88-4,2930,117884,NA,NA,"1,5-Naphthalenedisulfonic acid, 3-[2-[2-(acetylamino)-4-aminophenyl]diazenyl]-",NA,NA,NA,INACTIVE
+6734,C12H10,154.21,3.9,0,0,TRUE,83-32-9,1119,83329,NA,NA,"Acenaphthylene, 1,2-dihydro-",NA,NA,NA,ACTIVE
+69022,C2H4ClNO,93.51,-0.1,1,1,FALSE,598-49-2,5875,598492,NA,NA,"Acetamide, N-chloro-",NA,NA,NA,INACTIVE
+16211801,C8H13ClO3,192.64,NA,1,3,FALSE,25086-48-0,23028,25086480,NA,NA,"Acetic acid ethenyl ester, polymer with chloroethene and ethenol",NA,NA,XU,ACTIVE
+76208,C10H14Cl2O4,269.12,3.8,0,4,TRUE,2916-24-7,10632,2916247,NA,NA,"Carbonochloridic acid, C,C'-[1,4-cyclohexanediylbis(methylene)] ester",NA,NA,NA,INACTIVE
+44148792,C29H36MoN2O10Si,696.6,NA,3,11,FALSE,102082-92-8,61780,102082928,NA,NA,"Xanthylium, 3,6-bis(diethylamino)-9-[2-(methoxycarbonyl)phenyl]-, molybdatesilicate",NA,NA,PMN,ACTIVE
+117737,C3H8ClNO2S,157.62,0.9,1,3,TRUE,26118-67-2,23809,26118672,NA,NA,"Sulfamoyl chloride, N-(1-methylethyl)-",NA,NA,NA,INACTIVE
+161995,FeKO2,126.94,NA,0,2,FALSE,12160-44-0,17944,12160440,NA,NA,Iron potassium oxide (Fe11KO17),NA,NA,NA,ACTIVE
+6437427,C30H56O4,480.8,12.5,0,4,FALSE,61791-92-2,32299,61791922,NA,NA,"2-Butenedioic acid (2Z)-, 1,4-ditridecyl ester",NA,NA,NA,ACTIVE
+9828,C8H7FO,138.14,1.7,0,2,TRUE,403-42-9,4290,403429,NA,NA,"Ethanone, 1-(4-fluorophenyl)-",NA,NA,NA,ACTIVE
+176320,C61H118ClN,901,NA,0,1,FALSE,68213-97-8,41075,68213978,NA,NA,"Benzenemethanaminium, N,N,N-trioctadecyl-, chloride (1:1)",NA,NA,NA,INACTIVE
+44145438,C20H25N3O3S,387.5,NA,0,5,FALSE,71173-70-1,54117,71173701,NA,NA,"3H-Indolium, 1,3,3-trimethyl-2-[(2-methyl-2-phenylhydrazinylidene)methyl]-, methanesulfonate (1:1)",NA,NA,NA,INACTIVE
+28310,C10H12O3,180.2,1.9,1,3,TRUE,17138-28-2,20541,17138282,NA,NA,"Benzeneacetic acid, 4-hydroxy-, ethyl ester",NA,NA,NA,INACTIVE
+81646,C6H12N2O,128.17,-0.1,0,1,TRUE,7226-23-5,14780,7226235,NA,NA,"2(1H)-Pyrimidinone, tetrahydro-1,3-dimethyl-",NA,NA,PMN; S,ACTIVE
+3085698,C8H6N4O4S4,350.4,3.9,0,10,TRUE,72076-56-3,55514,72076563,NA,NA,"Thiazole, 2,2'-dithiobis[4-methyl-5-nitro-",NA,NA,NA,INACTIVE
+8396,C12H16O,176.25,4.1,1,1,TRUE,119-42-6,2998,119426,NA,NA,"Phenol, 2-cyclohexyl-",NA,NA,NA,ACTIVE
+173086,C20H31ClO8,434.9,NA,2,8,FALSE,68845-03-4,48235,68845034,NA,NA,"2-Propenoic acid, 2-methyl-, polymer with butyl 2-propenoate, chloroethene, ethenyl acetate and 2-propenoic acid",NA,NA,XU,INACTIVE
+6441668,C28H20N2O6,480.5,5.1,0,8,FALSE,51202-86-9,29162,51202869,NA,NA,"5(4H)-Oxazolone, 2,2'-(1,4-phenylene)bis[4-[(4-methoxyphenyl)methylene]-",NA,NA,NA,ACTIVE
+170995,C28H20N2O6,480.5,5.1,0,8,FALSE,51202-86-9,29162,51202869,NA,NA,"5(4H)-Oxazolone, 2,2'-(1,4-phenylene)bis[4-[(4-methoxyphenyl)methylene]-",NA,NA,NA,ACTIVE
+5750518,C28H20N2O6,480.5,5.1,0,8,FALSE,51202-86-9,29162,51202869,NA,NA,"5(4H)-Oxazolone, 2,2'-(1,4-phenylene)bis[4-[(4-methoxyphenyl)methylene]-",NA,NA,NA,ACTIVE
+172848,C38H33CrN8O6,749.7,NA,1,12,FALSE,71598-32-8,54792,71598328,NA,NA,"Chromate(1-), bis[2-[2-[1-(2-ethylphenyl)-4,5-dihydro-3-methyl-5-(oxo-.kappa.O)-1H-pyrazol-4-yl]diazenyl-.kappa.N1]benzoato(2-)-.kappa.O]-, hydrogen (1:1)",NA,NA,NA,INACTIVE
+120039,C16H20O3S,292.4,4.2,1,3,TRUE,28757-00-8,25156,28757008,NA,NA,"Naphthalenesulfonic acid, bis(1-methylethyl)-",NA,NA,NA,ACTIVE
+6455604,C17H26O8,358.4,NA,0,8,FALSE,67859-83-0,37132,67859830,NA,NA,"2-Butenedioic acid (2Z)-, 1,4-dimethyl ester, polymer with butyl 2-propenoate and ethenyl acetate",NA,NA,XU,ACTIVE
+80905,C42H25N7Na4O13S4,1055.9,NA,2,20,FALSE,6428-60-0,14296,6428600,NA,NA,"2-Naphthalenesulfonic acid, 5-[2-[1-hydroxy-6-(phenylamino)-3-sulfo-2-naphthalenyl]diazenyl]-8-[2-[6-sulfo-4-[2-(3-sulfophenyl)diazenyl]-1-naphthalenyl]diazenyl]-, sodium salt (1:4)",NA,NA,NA,ACTIVE
+67935,C7H3F9O6Si,382.17,NA,0,15,FALSE,429-72-1,4346,429721,NA,NA,"Acetic acid, 2,2,2-trifluoro-, 1,1',1''-(methylsilylidyne) ester",NA,NA,NA,INACTIVE
+31252,C6H8N2,108.14,0.6,0,2,TRUE,123-32-0,3217,123320,NA,NA,"Pyrazine, 2,5-dimethyl-",NA,NA,NA,ACTIVE
+103366,C18H31N,261.4,6.9,0,1,FALSE,65355-36-4,34960,65355364,NA,NA,"[1,1'-Bicyclohexyl]-4-carbonitrile, 4'-pentyl-, (trans,trans)-",NA,NA,NA,ACTIVE
+13551,C4H10O3S,138.19,0.4,0,3,TRUE,926-06-7,7417,926067,NA,NA,"Methanesulfonic acid, 1-methylethyl ester",NA,NA,NA,INACTIVE
+88641,Ag2H2O,233.752,NA,1,1,FALSE,20667-12-3,21613,20667123,NA,NA,Silver oxide (Ag2O),NA,NA,NA,ACTIVE
+6441129,C42H82N4O4,707.1,NA,6,8,FALSE,66085-55-0,35615,66085550,NA,NA,"9,12-Octadecadienoic acid (9Z,12Z)-, dimer, polymer with N1,N2-bis(2-aminoethyl)-1,2-ethanediamine",NA,NA,XU,INACTIVE
+23686427,C7H7NaO5S,226.18,NA,2,5,FALSE,4445-76-5,12546,4445765,NA,NA,"Benzenemethanesulfonic acid, .alpha.,2-dihydroxy-, sodium salt (1:1)",NA,NA,NA,INACTIVE
+67646,C15F33N,821.11,11.9,0,34,FALSE,338-84-1,4126,338841,NA,NA,"1-Pentanamine, 1,1,2,2,3,3,4,4,5,5,5-undecafluoro-N,N-bis(1,1,2,2,3,3,4,4,5,5,5-undecafluoropentyl)-",NA,NA,NA,ACTIVE
+169778,C24H50N2O4,430.7,NA,4,6,FALSE,36497-34-4,27252,36497344,NA,NA,"Dodecanedioic acid, polymer with 1,12-dodecanediamine",NA,NA,PMN; XU,ACTIVE
+3085785,C12H15N,173.25,3.2,0,1,TRUE,72269-54-6,56102,72269546,NA,NA,"Benzeneacetonitrile, 2-(1,1-dimethylethyl)-",NA,NA,NA,INACTIVE
+45933661,F6NO2P,190.97,NA,0,9,FALSE,19200-21-6,21246,19200216,NA,NA,"Phosphate(1-), hexafluoro-, nitryl (1:1)",NA,NA,NA,INACTIVE
+91859,C7H7ClN4O,198.61,0.1,1,2,TRUE,56433-30-8,30695,56433308,NA,NA,"[1,2,4]Triazolo[1,5-a]pyrimidin-7(1H)-one, 2-(chloromethyl)-5-methyl-",NA,NA,NA,INACTIVE
+171688,C26H38O,366.6,NA,1,1,FALSE,65733-79-1,35172,65733791,NA,NA,"Phenol, polymer with 1-methyl-4-(1-methylethenyl)cyclohexene and 2,6,6-trimethylbicyclo[3.1.1]hept-2-ene",NA,NA,XU,ACTIVE
+90702,C22H24N2O4,380.4,3.8,3,6,TRUE,25061-50-1,22959,25061501,NA,NA,"9,10-Anthracenedione, 1-amino-4-(cyclohexylamino)-2-(2-hydroxyethoxy)-",NA,NA,NA,INACTIVE
+23688950,C9H11LiO6S,254.2,NA,2,6,FALSE,32014-19-0,26190,32014190,NA,NA,"Benzenesulfonic acid, 4-(2,3-dihydroxypropoxy)-, lithium salt (1:1)",NA,NA,NA,INACTIVE
+16875,C12H25Cl,204.78,6.3,0,0,FALSE,2350-11-0,9882,2350110,NA,NA,"Dodecane, 2-chloro-",NA,NA,NA,INACTIVE
+44147563,C22H30O6,390.5,NA,0,6,FALSE,193486-91-8,65807,193486918,NA,NA,"2-Butenedioic acid (2E)-, 1,4-bis(1-methylethyl) ester, polymer with ethenyl acetate and ethenylbenzene",NA,NA,PMN; XU,INACTIVE
+1540619,C6H8N2O2S,172.21,0.2,2,3,TRUE,42039-81-6,28570,42039816,NA,NA,"4,6(1H,5H)-Pyrimidinedione, 5-ethyldihydro-2-thioxo-",NA,NA,NA,INACTIVE
+174909,C17H10Cl2N2O3,361.2,5.9,2,5,FALSE,72121-71-2,55608,72121712,NA,NA,"2-Naphthalenecarboxylic acid, 4-[2-(2,3-dichlorophenyl)diazenyl]-3-hydroxy-",NA,NA,NA,INACTIVE
+65207,C30H36N2O7S,568.7,NA,2,8,FALSE,26694-69-9,24225,26694699,NA,NA,"Xanthylium, 9-[2-(ethoxycarbonyl)phenyl]-3,6-bis(ethylamino)-2,7-dimethyl-, ethyl sulfate (1:1)",NA,NA,PMN; S,ACTIVE
+161651,C2H10NO5P,159.08,NA,5,6,FALSE,29868-05-1,25583,29868051,NA,NA,"Ethanol, 2-amino-, phosphate (1:?)",NA,NA,NA,ACTIVE
+138401301,C12H24Au3CrN12,979.3,NA,6,18,FALSE,67989-91-7,38307,67989917,NA,NA,"Chromium(3+), tris(1,2-ethanediamine-.kappa.N1,.kappa.N2)-, (OC-6-11)-, bis(cyano-.kappa.C)aurate(1-) (1:3)",NA,NA,NA,INACTIVE
+138395804,C8H8Cl3N3O2Zn,349.9,NA,1,4,FALSE,72139-05-0,55660,72139050,NA,NA,"Benzenediazonium, 5-(aminocarbonyl)-2-methoxy-, trichlorozincate(1-) (1:1)",NA,NA,NA,INACTIVE
+76179,C8H20O4P2S4,370.5,4.7,0,8,TRUE,2901-90-8,10606,2901908,NA,NA,"Thioperoxydiphosphoric acid ([(HO)2P(S)]2S2), OP,OP,OP',OP'-tetraethyl ester",NA,NA,NA,INACTIVE
+106833,C40H80O3,609.1,17.6,1,3,FALSE,67801-69-8,36814,67801698,NA,NA,"Docosanoic acid, 9-hydroxyoctadecyl ester",NA,NA,NA,INACTIVE
+19262,C10H8N2O2,188.18,3.4,0,4,TRUE,3634-83-1,11796,3634831,NA,NA,"Benzene, 1,3-bis(isocyanatomethyl)-",NA,NA,PMN,ACTIVE
+168326,C19H23NO2,297.4,NA,1,3,FALSE,25214-09-9,23189,25214099,NA,NA,"2-Propenoic acid, 2-methyl-, polymer with 1,3-butadiene, ethenylbenzene and 2-propenenitrile",NA,NA,XU,ACTIVE
+138394069,CrMoO12Pb3S,990,NA,0,12,FALSE,12656-85-8,17272,12656858,NA,NA,C.I. Pigment Red 104,"This substance is identified in the COLOUR INDEX by Colour Index Constitution Number, C.I. 77605.",NA,SP,ACTIVE
+174661,C33H48O16,700.7,NA,10,16,FALSE,87871-69-0,60473,87871690,NA,NA,"1,3-Benzenedicarboxylic acid, polymer with 1,4-benzenedicarboxylic acid, 2,2-dimethyl-1,3-propanediol, hexanedioic acid and 1,6-hexanediol",NA,NA,PMN; XU,ACTIVE
+10378,C8H7NO3,165.15,0.8,2,3,TRUE,500-72-1,4639,500721,NA,NA,"Acetic acid, 2-oxo-2-(phenylamino)-",NA,NA,NA,INACTIVE
+34237,C32H20Cu2N6Na4O16S4,1091.9,NA,6,22,FALSE,28407-37-6,25009,28407376,NA,NA,"Cuprate(4-), [.mu.-[[3,3'-[[3,3'-di(hydroxy-.kappa.O)[1,1'-biphenyl]-4,4'-diyl]bis(2,1-diazenediyl-.kappa.N1)]bis[5-amino-4-(hydroxy-.kappa.O)-2,7-naphthalenedisulfonato]](8-)]]di-, sodium (1:4)",NA,NA,NA,ACTIVE
+105734,C18H28N2O4,336.4,4.8,0,5,TRUE,67828-50-6,36961,67828506,NA,NA,"Pyrrolidine, 1-(2,5-dibutoxy-4-nitrophenyl)-",NA,NA,NA,INACTIVE
+79490,C8H7NO4,181.15,0.8,3,5,TRUE,5434-20-8,13300,5434208,NA,NA,"1,2-Benzenedicarboxylic acid, 3-amino-",NA,NA,NA,INACTIVE
+6451513,C12H27AlO3,246.32,NA,0,3,FALSE,3085-30-1,11182,3085301,NA,NA,"1-Butanol, aluminum salt (3:1)",NA,NA,NA,ACTIVE
+90474792,C21H18Cl2N4O7,509.3,NA,3,9,FALSE,68214-61-9,41129,68214619,NA,NA,"1,3'-Bipyridinium, 5'-[2-(2,5-dichlorophenyl)diazenyl]-1',2'-dihydro-6'-hydroxy-4'-methyl-2'-oxo-, 2-hydroxybutanedioate (1:1)",NA,NA,NA,INACTIVE
+71439744,C21H18Cl2N4O7,509.3,NA,3,9,FALSE,68214-61-9,41129,68214619,NA,NA,"1,3'-Bipyridinium, 5'-[2-(2,5-dichlorophenyl)diazenyl]-1',2'-dihydro-6'-hydroxy-4'-methyl-2'-oxo-, 2-hydroxybutanedioate (1:1)",NA,NA,NA,INACTIVE
+109228,C21H18Cl2N4O7,509.3,NA,4,9,FALSE,68214-61-9,41129,68214619,NA,NA,"1,3'-Bipyridinium, 5'-[2-(2,5-dichlorophenyl)diazenyl]-1',2'-dihydro-6'-hydroxy-4'-methyl-2'-oxo-, 2-hydroxybutanedioate (1:1)",NA,NA,NA,INACTIVE
+102870,C6H8O3S,160.19,0.5,0,4,TRUE,2689-69-2,10383,2689692,NA,NA,"2-Thiophenecarboxylic acid, tetrahydro-3-oxo-, methyl ester",NA,NA,NA,INACTIVE
+6537979,C3H5Cl3Si,175.51,NA,0,0,FALSE,18083-37-9,20877,18083379,NA,NA,"Silane, trichloro-1-propen-1-yl-",NA,NA,NA,INACTIVE
+163241,C32H16CrN6Na3O14S2,893.6,NA,0,19,FALSE,68541-70-8,45202,68541708,NA,NA,"Chromate(3-), bis[4-(hydroxy-.kappa.O)-3-[2-[2-(hydroxy-.kappa.O)-4-nitrophenyl]diazenyl-.kappa.N1]-1-naphthalenesulfonato(3-)]-, sodium (1:3)",NA,NA,NA,ACTIVE
+6336912,PrSi2,197.08,NA,0,0,FALSE,12066-83-0,17803,12066830,NA,NA,Praseodymium silicide (PrSi2),NA,NA,NA,INACTIVE
+4284,C12H17NO,191.27,2,0,1,TRUE,134-62-3,1040,134623,NA,NA,"Benzamide, N,N-diethyl-3-methyl-",NA,NA,NA,ACTIVE
+86664,C4H8Cl4Si,226,NA,0,0,FALSE,18142-53-5,20901,18142535,NA,NA,"Silane, trichloro(3-chloro-2-methylpropyl)-",NA,NA,NA,INACTIVE
+76968,C6H16N2,116.2,0.2,2,2,TRUE,3437-23-8,11607,3437238,NA,NA,"1,2-Ethanediamine, N1-(2-methylpropyl)-",NA,NA,NA,INACTIVE
+61235,C9H18O,142.24,2.8,0,1,TRUE,925-78-0,7413,925780,NA,NA,3-Nonanone,NA,NA,NA,ACTIVE
+74308,C16H13N3O8S2,439.4,1.6,5,11,FALSE,15475-84-0,19795,15475840,NA,NA,"2,7-Naphthalenedisulfonic acid, 3-[2-(4-aminophenyl)diazenyl]-4,5-dihydroxy-",NA,NA,NA,INACTIVE
+65221,C22H19ClN2O7,458.8,NA,3,8,FALSE,62669-77-6,32612,62669776,NA,NA,"Xanthylium, 9-(2-carboxyphenyl)-3,6-bis(methylamino)-, perchlorate (1:1)",NA,NA,NA,INACTIVE
+14915012,CH2KN5,123.16,NA,1,5,FALSE,136369-04-5,63676,136369045,NA,NA,"2H-Tetrazol-5-amine, potassium salt (1:1)",NA,NA,PMN,ACTIVE

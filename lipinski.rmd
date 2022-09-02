@@ -106,6 +106,7 @@ tsca_all <- tsca_lipinski %>%
   janitor::clean_names() %>%
   mutate(molecular_weight = as.numeric(molecular_weight))
 
+#write_csv(tsca_all, file = "data/TSCA_testData.csv")
   
 ```
 
