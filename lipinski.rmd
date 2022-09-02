@@ -1,0 +1,125 @@
+---
+title: "Lipinski rule over environmental chemical space"
+author: "David Ross Hall"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  bookdown::html_document2:
+  fig_caption: true
+    number_sections: false
+    number_sections: true
+---
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE
+)
+library(webchem)
+library(tidyverse)
+```
+
+### David Hall --- created on 2022-09-02
+
+# Lipinski's rule of 5
+
+*As outlined on [wikipedia](https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five)*
+
+ - No more than 5 hydrogen bond donors (the total number of nitrogen–hydrogen and oxygen–hydrogen bonds)
+ - No more than 10 hydrogen bond acceptors (all nitrogen or oxygen atoms)
+ - A molecular mass less than 500 daltons
+ -An octanol-water partition coefficient (log P) that does not exceed 5
+
+
+
+# Importing datasets
+
+- Ripped EPA's Toxic Substances Control Act (TSCA) Chemical Substance Inveoty from steven. 
+- Ditto w/ the inventory of ToxCast compounds
+- drugs from [here](https://www.cureffi.org/2013/10/04/list-of-fda-approved-drugs-and-cns-drugs-with-smiles/)
+
+```{r import}
+
+tsca_raw <- read_csv("data/TSCAINV_202202.csv") %>%
+  janitor::clean_names()
+
+toxcast <- read_csv("data/toxcast_inv.csv") %>%
+  janitor::clean_names()
+
+drugs_raw <- read_tsv("data/drugs.tsv") %>%
+  janitor::clean_names()
+
+```
+
+# Expanding TSCA database
+
+
+- Removed *Unknown or Variable Compositions, Complex reaction products, and Biological materials)* (UVCBs) from TSCA. Defintions can be found [here](https://www.epa.gov/sites/default/files/2015-05/documents/uvcb.tsca <- tsca_raw %>%filter(is.na(uvcb))pdf)
+- `flag` refers to compounds flagged in the TSCA. The meaning of EPA regulatory flags can be found [here](https://www.epa.gov/tsca-inventory/how-access-tsca-inventory#flags).
+- `activity` refers to the commercial activity status.
+
+
+
+```{r}
+# getting logp values and cas from TSCA
+
+tsca <- tsca_raw %>%
+  filter(is.na(uvcb))
+
+tsca_test <- sample_n(tsca, 500)
+
+tsca_cid <- get_cid(tsca_test$casrn) %>%
+  filter(!is.na(cid)) 
+
+tsca_props <- pc_prop(cid = tsca_cid$cid,
+                      properties = c("XLogP", 
+                                     "MolecularFormula", 
+                                     "MolecularWeight",
+                                     "HBondDonorCount",
+                                     "HBondAcceptorCount"))
+
+# Function to add column indicating if molecule obeys Lipinski's rules
+is_lipinski <- function(df, h_donor, h_accept, mw, logp){
+  
+  df <- df %>%
+    mutate(lipinski = case_when(.data[[h_donor]] <= 5 & .data[[h_accept]] <= 10 & .data[[mw]] <= 500 & .data[[logp]] <= 5 ~ TRUE, TRUE ~ FALSE))
+     
+  df
+    
+}
+
+tsca_lipinski <- tsca_props %>%
+  is_lipinski(df = .,
+              h_donor = "HBondDonorCount",
+              h_accept = "HBondAcceptorCount",
+              mw = "MolecularWeight",
+              logp = "XLogP")
+
+
+# combining all datasets together
+tsca_all <- tsca_lipinski %>%
+  mutate(CID = as.character(CID)) %>%
+  left_join(., tsca_cid, by = c("CID" = "cid")) %>%
+  rename(casrn = query) %>%
+  left_join(., tsca_test, by = c("casrn" = "casrn")) %>%
+  janitor::clean_names() %>%
+  mutate(molecular_weight = as.numeric(molecular_weight))
+
+  
+```
+
+```{r}
+
+p <- ggplot(data = tsca_all, 
+       aes(x = molecular_weight,
+           y = x_log_p,
+           colour = lipinski)) +
+  geom_point(alpha = 0.3) 
+
+p1 <- ggExtra::ggMarginal(p, 
+                          type = "density"
+                          )
+p1
+```
+
