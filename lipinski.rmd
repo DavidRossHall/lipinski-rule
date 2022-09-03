@@ -63,7 +63,7 @@ drugs_raw <- read_tsv("data/drugs.tsv") %>%
 
 
 
-```{r tsca-data}
+```{r tsca-data, eval = FALSE}
 # getting logp values and cas from TSCA
 # running at 10:30, Sat AM
 # removing UVCB compounds
@@ -110,7 +110,7 @@ write_csv(tsca_all, file = "data/TSCA_Data.csv")
   
 ```
 
-```{r drugs-dataset}
+```{r drugs-dataset, eval = FALSE}
 
 #drugs_test <- sample_n(drugs_raw, 50)
 
@@ -148,34 +148,61 @@ write_csv(x = drugs_all, file = "data/drugs_all.csv")
 ```
 
 
-```{r}
+```{r tsca-dataforplot}
 tsca <- read_csv('data/TSCA_Data.csv') %>%
-  filter(cid != "111615")
+  filter(cid != "111615") %>%
+  rowid_to_column() %>%
+  group_by(id) %>%
+  slice_min(order_by = rowid) %>%
+  select(-rowid)
+  
+```
 
-p <- ggplot(data = tsca, 
-       aes(x = log10(molecular_weight),
-           y = x_log_p,
-           colour = lipinski)) +
-  geom_point(alpha = 0.1) 
+```{r tsca-plot}
 
-p1 <- ggExtra::ggMarginal(p, 
-                          type = "density"
-                          )
-p1
+choice_cmpds <- data.frame(
+  "name" = c("PFOA", "TCDD", "DDT", "6-OH-BDE47"), 
+  "molecular_weight" = c(414.07, 322.0, 354.5, 501.79),
+  "x_log_p" = c(4.9, 6.4, 6.9, 5.9)
+)
+
+
+p <- ggplot(data = subset(tsca, molecular_weight < 1500 & abs(x_log_p) <= 30), 
+       aes(x = molecular_weight,
+           y = x_log_p)) 
+
+p +
+  stat_bin2d(bins = 50) +
+  scale_fill_gradient(low = "lightblue", high = "red") +
+  theme_classic() +
+    geom_rect(aes(xmin = 0, xmax = 500, ymin = 0, ymax = 5), 
+            alpha = 0, color = "black") +
+  geom_point(data = choice_cmpds, 
+             aes(x = molecular_weight, 
+                 y = x_log_p, 
+                 label = name), colour = "black") +
+  ggrepel::geom_text_repel(data = choice_cmpds, 
+                            aes( x = molecular_weight, 
+                                 y = x_log_p, 
+                                 label = name))
+
+
 
 
 ```
 
 ```{r}
-q <- ggplot(data = drugs_all, 
-       aes(x = molecular_weight,
-           y = x_log_p,
-           colour = lipinski)) +
-  geom_point(alpha = 0.3) 
+drugs <- read_csv("data/drugs_all.csv")
 
-q1 <- ggExtra::ggMarginal(q, 
-                          type = "density"
-                          )
-q1
+p <- ggplot(data = subset(drugs, molecular_weight < 1500 & abs(x_log_p) <= 30), 
+       aes(x = molecular_weight,
+           y = x_log_p)) 
+
+p +
+  stat_bin2d(bins = 50) +
+  scale_fill_gradient(low = "lightblue", high = "red") +
+  theme_classic() +
+    geom_rect(aes(xmin = 0, xmax = 500, ymin = 0, ymax = 5), 
+            alpha = 0, color = "black")
 ```
 
