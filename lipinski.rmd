@@ -65,16 +65,17 @@ drugs_raw <- read_tsv("data/drugs.tsv") %>%
 
 ```{r tsca-data}
 # getting logp values and cas from TSCA
-
+# running at 10:30, Sat AM
 # removing UVCB compounds
 tsca <- tsca_raw %>%
-  filter(is.na(uvcb))
+  filter(is.na(uvcb)) %>%
+  mutate(casrn = str_replace_all(casrn, "/", "-"))
 
 # small test dataset 
 tsca_test <- sample_n(tsca, 500)
 
 # getting pubchem CID for properties search
-tsca_cid <- get_cid(tsca_test$casrn) %>%
+tsca_cid <- get_cid(tsca$casrn) %>%
   filter(!is.na(cid)) 
 
 # querying pubchem for CID for lipinski search
@@ -100,12 +101,12 @@ tsca_all <- tsca_lipinski %>%
   mutate(CID = as.character(CID)) %>%
   left_join(., tsca_cid, by = c("CID" = "cid")) %>%
   rename(casrn = query) %>%
-  left_join(., tsca_test, by = c("casrn" = "casrn")) %>%
+  left_join(., tsca, by = c("casrn" = "casrn")) %>%
   janitor::clean_names() %>%
   mutate(molecular_weight = as.numeric(molecular_weight))
 
 # saving test dataset
-#write_csv(tsca_all, file = "data/TSCA_testData.csv")
+write_csv(tsca_all, file = "data/TSCA_Data.csv")
   
 ```
 
@@ -148,18 +149,24 @@ write_csv(x = drugs_all, file = "data/drugs_all.csv")
 
 
 ```{r}
+tsca <- read_csv('data/TSCA_Data.csv') %>%
+  filter(cid != "111615")
 
-p <- ggplot(data = tsca_all, 
-       aes(x = molecular_weight,
+p <- ggplot(data = tsca, 
+       aes(x = log10(molecular_weight),
            y = x_log_p,
            colour = lipinski)) +
-  geom_point(alpha = 0.3) 
+  geom_point(alpha = 0.1) 
 
 p1 <- ggExtra::ggMarginal(p, 
                           type = "density"
                           )
 p1
 
+
+```
+
+```{r}
 q <- ggplot(data = drugs_all, 
        aes(x = molecular_weight,
            y = x_log_p,
