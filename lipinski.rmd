@@ -54,14 +54,14 @@ drugs_raw <- read_tsv("data/drugs.tsv") %>%
 
 ```
 
-# Expanding TSCA database
 
+# Data prep for plots
+
+## Expanding TSCA database
 
 - Removed *Unknown or Variable Compositions, Complex reaction products, and Biological materials)* (UVCBs) from TSCA. Defintions can be found [here](https://www.epa.gov/sites/default/files/2015-05/documents/uvcb.tsca <- tsca_raw %>%filter(is.na(uvcb))pdf)
 - `flag` refers to compounds flagged in the TSCA. The meaning of EPA regulatory flags can be found [here](https://www.epa.gov/tsca-inventory/how-access-tsca-inventory#flags).
 - `activity` refers to the commercial activity status.
-
-
 
 ```{r tsca-data, eval = FALSE}
 # getting logp values and cas from TSCA
@@ -110,6 +110,9 @@ write_csv(tsca_all, file = "data/TSCA_Data.csv")
   
 ```
 
+## FDA approved human drugs
+
+
 ```{r drugs-dataset, eval = FALSE}
 
 #drugs_test <- sample_n(drugs_raw, 50)
@@ -148,25 +151,67 @@ write_csv(x = drugs_all, file = "data/drugs_all.csv")
 ```
 
 
-```{r tsca-dataforplot}
+## Pops 
+
+
+```{r pops-data, eval = FALSE}
+
+pops_raw <- read_tsv("data/pops.csv") %>%
+  janitor::clean_names()
+
+pops_cid <- get_cid(pops_raw$cas_number) %>%
+  filter(!is.na(cid))
+
+# querying pubchem for CID for lipinski search
+pops_props <- pc_prop(cid = pops_cid$cid,
+                      properties = c("XLogP", 
+                                     "MolecularFormula", 
+                                     "MolecularWeight",
+                                     "HBondDonorCount",
+                                     "HBondAcceptorCount"))
+
+
+# querying pubchem for lipinksi properties
+pops_lipinski <- pops_props %>%
+  is_lipinski(df = .,
+              h_donor = "HBondDonorCount",
+              h_accept = "HBondAcceptorCount",
+              mw = "MolecularWeight",
+              logp = "XLogP")
+
+# combining TSCA datasets together
+pops_all <- pops_lipinski %>%
+  mutate(CID = as.character(CID)) %>%
+  left_join(., pops_cid, by = c("CID" = "cid")) %>%
+  left_join(., pops_raw, by = c("query" = "cas_number")) %>%
+  janitor::clean_names() %>%
+  mutate(molecular_weight = as.numeric(molecular_weight)) %>%
+  rowid_to_column() %>%
+  group_by(query) %>%
+  slice_min(order_by = rowid) %>%
+  select(-rowid)
+  
+
+write_csv(x = pops_all, file = "data/pops_all.csv")
+
+```
+
+# Plotting TSCA chemical space 
+
+```{r dataforplot}
 tsca <- read_csv('data/TSCA_Data.csv') %>%
   filter(cid != "111615") %>%
   rowid_to_column() %>%
   group_by(id) %>%
   slice_min(order_by = rowid) %>%
   select(-rowid)
-  
+
+pops <- read_csv("data/pops_all.csv") %>%
+  filter(str_length(chemical)<10)
+
 ```
 
-```{r tsca-plot}
-
-choice_cmpds <- data.frame(
-  "name" = c("PFOA", "TCDD", "DDT", "6-OH-BDE47"), 
-  "molecular_weight" = c(414.07, 322.0, 354.5, 501.79),
-  "x_log_p" = c(4.9, 6.4, 6.9, 5.9)
-)
-
-
+```{r}
 p <- ggplot(data = subset(tsca, molecular_weight < 1500 & abs(x_log_p) <= 30), 
        aes(x = molecular_weight,
            y = x_log_p)) 
@@ -177,15 +222,29 @@ p +
   jcolors::scale_fill_jcolors_contin("pal12", bias = 1.5) +
   theme_classic() +
     geom_rect(aes(xmin = 0, xmax = 500, ymin = 0, ymax = 5), 
-            alpha = 0, color = "black") +
-  geom_point(data = choice_cmpds, 
+            alpha = 0, color = "grey80") +
+  geom_point(data = pops, 
              aes(x = molecular_weight, 
                  y = x_log_p, 
-                 label = name), colour = "black") +
-  ggrepel::geom_text_repel(data = choice_cmpds, 
-                            aes( x = molecular_weight, 
-                                 y = x_log_p, 
-                                 label = name))
+                 label = chemical), colour = "white") +
+  ggrepel::geom_label_repel(data = subset(pops, x_log_p <= 4), 
+                            aes(x = molecular_weight, 
+                                y = x_log_p, 
+                                label = chemical),
+                            box.padding = 0.5, 
+                            max.overlaps = Inf,
+                            force = 100,
+                            nudge_y = -20,
+                            segment.curvature = -1e-20) +
+    ggrepel::geom_label_repel(data = subset(pops, x_log_p >= 4), 
+                            aes(x = molecular_weight, 
+                                y = x_log_p, 
+                                label = chemical),
+                            box.padding = 0.5, 
+                            max.overlaps = Inf,
+                            force = 100,
+                            nudge_y = 30,
+                            segment.curvature = -1e-20)
 
 
 
