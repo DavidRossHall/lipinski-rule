@@ -173,7 +173,8 @@ p <- ggplot(data = subset(tsca, molecular_weight < 1500 & abs(x_log_p) <= 30),
 
 p +
   stat_bin2d(bins = 50) +
-  scale_fill_gradient(low = "lightblue", high = "red") +
+  #scale_fill_gradient(low = "lightblue", high = "red", trans="log2") +
+  jcolors::scale_fill_jcolors_contin("pal12", bias = 1.5) +
   theme_classic() +
     geom_rect(aes(xmin = 0, xmax = 500, ymin = 0, ymax = 5), 
             alpha = 0, color = "black") +
