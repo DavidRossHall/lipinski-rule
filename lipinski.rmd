@@ -366,7 +366,8 @@ links$IDtarget <- match(links$target, nodes$name)-1
 p <- sankeyNetwork(Links = links, Nodes = nodes,
               Source = "IDsource", Target = "IDtarget",
               Value = "value", NodeID = "name", 
-              sinksRight=FALSE)
+              sinksRight=FALSE,
+              fontFamily = "sans")
 p
 
 ```
