@@ -64,6 +64,10 @@ drugs_raw <- read_tsv("data/drugs.tsv") %>%
 - `activity` refers to the commercial activity status.
 
 ```{r tsca-data, eval = FALSE}
+
+tsca_raw <- read_csv("data/TSCAINV_202202.csv") %>%
+  janitor::clean_names()
+
 # getting logp values and cas from TSCA
 # running at 10:30, Sat AM
 # removing UVCB compounds
@@ -72,7 +76,7 @@ tsca <- tsca_raw %>%
   mutate(casrn = str_replace_all(casrn, "/", "-"))
 
 # small test dataset 
-tsca_test <- sample_n(tsca, 500)
+#tsca_test <- sample_n(tsca, 500)
 
 # getting pubchem CID for properties search
 tsca_cid <- get_cid(tsca$casrn) %>%
@@ -115,6 +119,9 @@ write_csv(tsca_all, file = "data/TSCA_Data.csv")
 
 ```{r drugs-dataset, eval = FALSE}
 
+drugs_raw <- read_tsv("data/drugs.tsv") %>%
+  janitor::clean_names()
+
 #drugs_test <- sample_n(drugs_raw, 50)
 
 
@@ -155,6 +162,10 @@ write_csv(x = drugs_all, file = "data/drugs_all.csv")
 
 
 ```{r pops-data, eval = FALSE}
+
+# toxcast <- read_csv("data/toxcast_inv.csv") %>%
+#   janitor::clean_names()
+
 
 pops_raw <- read_tsv("data/pops.csv") %>%
   janitor::clean_names()
@@ -252,7 +263,7 @@ p2 <- p +
 p3 <- p2 +
   labs(x = "molecular weight (g/mol)", 
        y = "predicted logP", 
-       count = "Count")
+       fill = "Count of\nunique\ncompounds")
 
 p3
 
@@ -272,5 +283,91 @@ p +
   theme_classic() +
     geom_rect(aes(xmin = 0, xmax = 500, ymin = 0, ymax = 5), 
             alpha = 0, color = "black")
+```
+
+
+## Sankey diagram
+
+```{r}
+# raw tsca dataset
+tsca_raw <- read_csv("data/TSCAINV_202202.csv") %>%
+  janitor::clean_names()
+
+# tsca w/ pubchem hits 
+
+tsca_pc <- read_csv('data/TSCA_Data.csv') %>%
+  rowid_to_column() %>%
+  group_by(id) %>%
+  slice_min(order_by = rowid) %>%
+  select(-rowid)
+```
+
+```{r}
+n_tsca <- nrow(tsca_raw)
+
+tsca_chem <- tsca_raw %>%
+  filter((uvcb != "UVCB") %>% replace_na(TRUE))
+
+n_uvcb <- nrow(subset(tsca_raw, uvcb == "UVCB" ))
+
+n_chem <- n_tsca - n_uvcb
+
+n_logP <- nrow(filter(tsca_pc, !is.na(x_log_p)))
+
+n_logP5 <- nrow(filter(tsca_pc, x_log_p <= 5 & x_log_p >= 0))
+
+n_500Da <- nrow(filter(tsca_pc, molecular_weight < 500))
+
+n_hd <- nrow(filter(tsca_pc, h_bond_donor_count <= 5))
+
+n_ha <- nrow(filter(tsca_pc, h_bond_acceptor_count <= 10))
+
+
+
+```
+
+```{r}
+sankey_tsca_raw <- tsca_raw %>%
+  mutate(uvcb = ifelse(uvcb == "UVCB", 1, 0))
+
+# used to manually tabulate sankey values for plot
+sankey_pc <- tsca_pc %>%
+  mutate(h_bond_donor_count = ifelse(h_bond_donor_count <= 5, 1, 0),
+         h_bond_acceptor_count = ifelse(h_bond_acceptor_count <= 10, 1, 0),
+         molecular_weight = ifelse(molecular_weight <= 500, 1, 0), 
+         x_log_p = ifelse(x_log_p <= 5 & x_log_p >= 0, 1, 0)) %>%
+  replace_na(list(x_log_p = 0)) %>%
+  group_by(h_bond_donor_count, h_bond_acceptor_count, molecular_weight, x_log_p) %>%
+  summarize(n = n())
+```
+
+```{r}
+# from https://r-graph-gallery.com/321-introduction-to-interactive-sankey-diagram-2.html
+
+# Library
+library(networkD3)
+library(dplyr)
+ 
+# A connection data frame is a list of flows with intensity for each flow
+# pre-tabulated sankey values
+links <- read_csv("data/sankey.csv")
+ 
+# From these flows we need to create a node data frame: it lists every entities involved in the flow
+nodes <- data.frame(
+  name=c(as.character(links$source), 
+  as.character(links$target)) %>% unique()
+)
+ 
+# With networkD3, connection must be provided using id, not using real name like in the links dataframe.. So we need to reformat it.
+links$IDsource <- match(links$source, nodes$name)-1 
+links$IDtarget <- match(links$target, nodes$name)-1
+ 
+# Make the Network
+p <- sankeyNetwork(Links = links, Nodes = nodes,
+              Source = "IDsource", Target = "IDtarget",
+              Value = "value", NodeID = "name", 
+              sinksRight=FALSE)
+p
+
 ```
 

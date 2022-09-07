@@ -1,0 +1,8 @@
+source,target,value
+TSCA,UVCB,17178
+TSCA,known composition,51398
+known composition,singular chemical,40841
+singular chemical,H-bond donor ≤  5,39371
+H-bond donor ≤  5,H-bond acceptor  ≤ 10,36299
+H-bond acceptor  ≤ 10,MW  ≤ 500,32617
+MW  ≤ 500,0  ≤ LogP ≤ 5,16380
