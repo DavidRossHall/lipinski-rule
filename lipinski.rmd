@@ -217,8 +217,11 @@ tsca <- read_csv('data/TSCA_Data.csv') %>%
   slice_min(order_by = rowid) %>%
   select(-rowid)
 
+pops_remove <- c("Dieldrin", "Toxaphene", "PCP", "Dicofol", "Chlordane")
+
 pops <- read_csv("data/pops_all.csv") %>%
-  filter(str_length(chemical)<10)
+  filter(str_length(chemical)<10) %>%
+  filter(!(chemical %in% pops_remove))
 
 ```
 
@@ -238,7 +241,9 @@ p2 <- p +
   geom_point(data = pops, 
              aes(x = molecular_weight, 
                  y = x_log_p, 
-                 label = chemical), colour = "white") +
+                 label = chemical), 
+             colour = "white",
+             size = 0.75) +
   ggrepel::geom_label_repel(data = subset(pops, x_log_p <= 4), 
                             aes(x = molecular_weight, 
                                 y = x_log_p, 
@@ -247,7 +252,8 @@ p2 <- p +
                             max.overlaps = Inf,
                             force = 100,
                             nudge_y = -20,
-                            segment.curvature = -1e-20) +
+                            segment.curvature = -1e-20,
+                            size = 2) +
     ggrepel::geom_label_repel(data = subset(pops, x_log_p >= 4), 
                             aes(x = molecular_weight, 
                                 y = x_log_p, 
@@ -256,18 +262,25 @@ p2 <- p +
                             max.overlaps = Inf,
                             force = 100,
                             nudge_y = 30,
-                            segment.curvature = -1e-20)
+                            segment.curvature = -1e-20,
+                            size = 2)
 
 
 
 p3 <- p2 +
   labs(x = "molecular weight (g/mol)", 
        y = "predicted logP", 
-       fill = "Count of\nunique\ncompounds")
+       fill = "Count of\nunique\ncompounds") +
+  theme(text = element_text(size = 8))  
 
 p3
 
-
+ggsave(filename = "images/tsca_lipinksi.png", 
+       plot = p3, 
+       width = 5,
+       height = 3, 
+       units = "in")
+nrow(tsca)
 ```
 
 ```{r}
