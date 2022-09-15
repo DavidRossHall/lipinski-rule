@@ -31,9 +31,7 @@ source("utils.r")
  - No more than 5 hydrogen bond donors (the total number of nitrogen–hydrogen and oxygen–hydrogen bonds)
  - No more than 10 hydrogen bond acceptors (all nitrogen or oxygen atoms)
  - A molecular mass less than 500 daltons
- -An octanol-water partition coefficient (log P) that does not exceed 5
-
-
+ - An octanol-water partition coefficient (log P) that does not exceed 5
 
 # Importing datasets
 
@@ -274,6 +272,9 @@ p3 <- p2 +
   theme(text = element_text(size = 8))  
 
 p3
+
+```
+```{r plot-save, eval = FALSE}
 
 ggsave(filename = "images/tsca_lipinksi.png", 
        plot = p3, 
