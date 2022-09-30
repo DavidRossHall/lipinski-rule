@@ -9,7 +9,7 @@ output:
   html_document: default
 ---
 
-```{r, echo = FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   echo = FALSE,
   message = FALSE,
@@ -38,17 +38,19 @@ pcbs_raw <- read_csv("data/pcbs.csv") %>%
   janitor::clean_names() %>%
   rename(casrn = polychlorinated)
 
-View(pcbs_raw)
-
 pcbs_cid <- webchem::get_cid(pcbs_raw$casrn)
 
-propertiesToGet <- c("MolecularFormula", "MolecularWeight", 
-                "CanonicalSMILES", "IsomericSMILES",
-                "IUPACName", "XLogP",
-                "ExactMass", "MonoisotopicMass",
-                "TPSA", "HBondDonorCount", 
-                "HBondAcceptorCount", "Volume3D", 
-                "Fingerprint2D")
+propertiesToGet <- c("MolecularFormula", 
+                     "MolecularWeight", 
+                     "CanonicalSMILES", 
+                     "IsomericSMILES",
+                     "IUPACName", "XLogP",
+                     "ExactMass", 
+                     "MonoisotopicMass",
+                     "TPSA", 
+                     "HBondDonorCount",
+                     "HBondAcceptorCount", 
+                     "Volume3D")
 
 pcbs_props <- pc_prop(cid = pcbs_cid$cid,
                       properties = propertiesToGet)
